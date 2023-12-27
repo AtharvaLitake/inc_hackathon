@@ -1,0 +1,63 @@
+.problem {
+  display: grid;
+  grid-template-columns: 100%;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.problem_statements {
+  display: grid;
+  grid-template-columns: 100%;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  width: 80%;
+}
+.problem_statements h1 {
+  color: #ebe718;
+  font-weight: 800;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  animation: glow 2s infinite;
+}
+
+tr {
+  color: #001727;
+  font-size: 20px;
+}
+th {
+  color: #001727;
+  font-weight: 800;
+  font-size: 30px;
+}
+.statement {
+  text-align: justify;
+}
+.table-hover {
+  animation: fadeIn 1s ease;
+}
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 10px rgba(235, 232, 24, 0.668);
+  }
+
+  50% {
+    text-shadow: 0 0 30px rgba(235, 232, 24, 0.668);
+  }
+
+  100% {
+    text-shadow: 0 0 10px rgba(235, 232, 24, 0.668);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
