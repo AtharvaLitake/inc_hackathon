@@ -25,10 +25,13 @@ This web application was created by me using React for the purpose of organizing
 
 ![Home](https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/9ab4c8a1-da8e-46be-9651-76b7aa33aa18)
 
+
 ![register](https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/566fdcc3-1ee0-46d7-b5ac-f620d8af41a6)
 
-## Copyright![about](https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/71c94e2d-14c0-4095-8ee6-d479d2da6180)
 
+![about](https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/144a660d-8261-4bc5-bc98-b185ac14bb0c)
+
+## Copyright!
  Atharva Litake ( Pune Institute of Computer Technology )
 
 ## Contact
