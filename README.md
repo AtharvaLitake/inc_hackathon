@@ -26,7 +26,7 @@ This web application was created by me using React for the purpose of organizing
 ![Home](https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/9ab4c8a1-da8e-46be-9651-76b7aa33aa18)
 
 
-![register](https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/566fdcc3-1ee0-46d7-b5ac-f620d8af41a6)
+![problem](https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/bee521d8-514f-431c-8e5d-7011cf4f17ba)
 
 
 ![register](https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/6656a025-53c3-4bf6-bbbb-0c78dbfceffe)
