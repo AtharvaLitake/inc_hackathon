@@ -22,7 +22,10 @@
   margin-bottom: 40px;
   margin-top: 40px;
 }
-
+.table-responsive
+{
+  height: auto;
+}
 tr {
   color: #001727;
   font-size: 20px;
@@ -35,7 +38,9 @@ th {
 .statement {
   text-align: justify;
 }
+
 .table-hover {
+  margin-bottom: 0px;
   animation: fadeIn 1s ease;
 }
 

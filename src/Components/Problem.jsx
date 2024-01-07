@@ -33,9 +33,9 @@ const Problem = () => {
     <div className="problem">
       <div className="problem_statements">
         <h1>PROBLEM STATEMENTS</h1>
-        <div className="table-responsive">
-          <table className="table table-hover">
-            <thead>
+        <div className="table-responsive " style={{ borderRadius: "8px" }}>
+          <table className="table table-hover"  >
+            <thead >
               <tr>
                 <th scope="col">NO</th>
                 <th scope="col" className="col-3">

@@ -25,7 +25,7 @@ const timelineData = [
 const Timeline = () => {
   return (
     <div className="time_section">
-      <h3>TIMELINES OF HACKATHON</h3>
+      <h3>TIMELINE OF HACKATHON</h3>
       <div className="time_container">
         <div className="timeline">
           <ul>

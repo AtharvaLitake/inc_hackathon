@@ -1,0 +1,132 @@
+.register
+{
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.register h1
+{
+    color: #ebe718;
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.registeration_form
+{
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    font-size: 22px;
+    row-gap: 10px;
+    width: 80%;
+    padding: 10px;
+    padding-top: 40px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.632); 
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.college_ps
+{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    column-gap: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+input
+{
+    width: 350px;
+    border: none;
+    padding: 10px;
+    padding-left: 15px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.553);
+}
+input::placeholder
+{
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+}
+select
+{
+    font-size: 26px;
+    text-align: center;
+    width: 350px;
+    border: none;
+    height: 100%;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.563);
+    padding: 10px;
+}
+.member_details
+{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    column-gap: 30px;
+    row-gap: 40px;
+}
+.members
+{
+    
+    border-radius: 8px;
+}
+.members h1
+{
+    color: #ebe718;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.member_details input
+{
+    font-weight: 600;
+    margin-bottom: 12px;
+    width: 350px;
+}
+
+.submit_button {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.submit_button button {
+    width: 200px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: #ebe718;
+    font-size: 28px;
+    font-weight: 700;
+    color: black;
+    border: none;
+    margin-bottom: 30px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.submit_button button:hover {
+    background-color: #d1bc00;
+    cursor: pointer;
+}
+
+.submit_button button:active {
+    transform: scale(1.05);
+}

@@ -58,6 +58,7 @@
 }
 .about_pict1:hover,
 .about_pict2:hover {
+  box-shadow: 0 0 10px  #ebe718; 
   transform: scale(1.05);
 }
 @keyframes scaleAndFade {
