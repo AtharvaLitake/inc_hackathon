@@ -3,25 +3,23 @@ import "../Styling/Timeline.css";
 
 const timelineData = [
   {
-    date: "2nd April, 2023",
-    title: "item 1",
-    content: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, vero."
+    date: "10th Feb 2024",
+    title: "Problem Statement Submission",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae",
   },
   {
-    date: "2nd April, 2023",
-    title: "item 2",
-    content: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, vero."
+    date: "23rd Feb - 29th Feb 2024",
+    title: "Online Evaluation",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae",
   },
   {
-    date: "2nd April, 2023",
-    title: "item 3",
-    content: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, vero."
+    date: "15th March - 17th March 2024",
+    title: "Grand Finale",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae",
   },
-  {
-    date: "2nd April, 2023",
-    title: "item 4",
-    content: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, vero."
-  }
 ];
 
 const Timeline = () => {

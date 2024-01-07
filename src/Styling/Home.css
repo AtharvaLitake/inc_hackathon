@@ -8,7 +8,11 @@
     align-items: center;
     text-align: center;
 }
-
+.main_page img
+{
+    height: 500px;
+    width: 100%;
+}
 .content-home {
     width: 50%;
     text-align: center;

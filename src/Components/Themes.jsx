@@ -1,20 +1,21 @@
 import React from 'react';
-import logo1 from '../Assets/logo.png';
+import domain1 from '../Assets/domain1.png';
+import domain2 from '../Assets/domain2.png';
+import domain3 from '../Assets/domain3.png';
+import domain4 from '../Assets/domain4.png';
 import '../Styling/Themes.css';
 
 const themeData = [
-    { id: 1, name: 'Agriculture', image: logo1 },
-    { id: 2, name: 'Technology', image: logo1 },
-    { id: 3, name: 'Technology', image: logo1 },
-    { id: 4, name: 'Technology', image: logo1 },
-    { id: 5, name: 'Technology', image: logo1 },
-    { id: 6, name: 'Technology', image: logo1 },
+    { id: 1, name: 'Smart Cities / Villages', image: domain1 },
+    { id: 2, name: 'Health and Care', image: domain2 },
+    { id: 3, name: 'Education Technology', image: domain3 },
+    { id: 4, name: 'Agriculture', image: domain4 },
 ];
 
 const Themes = () => {
     return (
         <div className="themes">
-            <h1>THEMES</h1>
+            <h1>DOMAINS</h1>
             <div className="theme_list">
                 {themeData.map((theme) => (
                     <div key={theme.id} className="single_theme">
