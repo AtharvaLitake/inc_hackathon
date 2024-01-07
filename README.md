@@ -15,7 +15,7 @@ This web application was created by me using React for the purpose of organizing
 - **Hosting**: Netlify
 
 ## How to Run Locally
-1. Clone the repository: `git clone https://github.com/your-username/hackathon-website.git`
+1. Clone the repository: `git clone https://github.com/AtharvaLitake/hackathon-website.git`
 2. Navigate to the project directory: `cd hackathon-website`
 3. Install dependencies: `npm install`
 4. Configure the backend and database settings.
@@ -29,7 +29,8 @@ This web application was created by me using React for the purpose of organizing
 ![register](https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/566fdcc3-1ee0-46d7-b5ac-f620d8af41a6)
 
 
-![about](https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/144a660d-8261-4bc5-bc98-b185ac14bb0c)
+![register](https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/6656a025-53c3-4bf6-bbbb-0c78dbfceffe)
+
 
 ## Copyright!
  Atharva Litake ( Pune Institute of Computer Technology )
