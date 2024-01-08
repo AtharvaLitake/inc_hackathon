@@ -16,7 +16,7 @@
 .coming_content {
   padding: 30px;
   border-radius: 8px;
-  background-color: #ebe818ce;
+  background-color: #ebe718;
   animation: divglow 2s infinite;
 }
 @keyframes  divglow {
@@ -29,7 +29,7 @@
   }
 
   100% {
-    box-shadow: 0 0 1vh rgba(235, 232, 24, 0.668);
+    box-shadow: 0 0 1vh rgba(235, 232, 24, 0.665);
   }
 }
 

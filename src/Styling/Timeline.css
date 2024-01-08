@@ -69,7 +69,7 @@
   }
   
   @media only screen and (min-width: 990px) {
-  
+
     .timeline ul li {
       width: 50%;
       margin-bottom: 70px;
@@ -149,6 +149,7 @@
   }
   
   .timeline ul li:nth-child(odd) {
+
     animation: slideIn 1s ease-in-out;
     margin-bottom: 50px;
   }
@@ -157,4 +158,32 @@
     margin-bottom: 50px;
   }
   
+  @media only screen and (max-width: 990px)
+  {
+    .timeline
+    {
+      margin-top: 20px;
+      width: 90%;
+      padding: 10px;
+    }
+    .timeline ul
+    {
+      padding: 0px;
+    }
+    .time_section h3 {
+      font-size: 35px;
+    }
+    .timeline ul li:nth-child(odd) {
+      width: 100%;
+      animation: slideIn 1s ease-in-out;
+      margin-bottom: 50px;
+    }
+    .timeline ul li:nth-child(even) {
+      width: 100%;
+      animation: slideIn 1s ease-in-out;
+      margin-bottom: 50px;
+    }
+  }
+  
+
   

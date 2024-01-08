@@ -71,6 +71,11 @@ th {
 
 /* Responsive styles using media queries */
 @media (max-width: 768px) {
+
+  .problem_statements h1 {
+    font-size: 35px;
+  }
+
   .table-responsive {
     overflow-x: auto;
   }
