@@ -25,10 +25,13 @@ const About = () => {
         </div>
       </div>
       <h1>ABOUT TECHFIESTA</h1>
-      <div className="about_pict2">
+      <div className="about_pict1">
+        <div className="pict_logo">
+          <img src={logo_hack} alt="" />
+        </div>
         <div className="about_content">
           <p>
-          Pune Institute of Computer Technology (popularly known as PICT), is
+            Pune Institute of Computer Technology (popularly known as PICT), is
             an elite academic Institute located in Pune, “The Oxford of the
             East.” Since our establishment in 1983, PICT has been
             revolutionizing the education sector by nurturing skilled and
@@ -38,9 +41,6 @@ const About = () => {
             members have undertaken numerous research projects funded by
             renowned organizations.
           </p>
-        </div>
-        <div className="pict_logo">
-          <img src={logo_hack} alt="" />
         </div>
       </div>
     </div>
