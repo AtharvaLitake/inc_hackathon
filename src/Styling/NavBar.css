@@ -36,6 +36,9 @@
   font-size: 1.8rem;
   flex-grow: 1;
   display: flex;
+  
+}
+.nav-logo span{
   margin-top: 7px;
 }
 
