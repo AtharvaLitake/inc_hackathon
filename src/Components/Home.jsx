@@ -15,7 +15,6 @@ const Home = () => {
                 </h1>
                 <img src={logo_hack} alt="logo_of hackathon" />
             </div>
-            <Footer></Footer>
         </div>
     );
 }
