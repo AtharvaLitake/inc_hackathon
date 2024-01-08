@@ -39,7 +39,7 @@
   
 }
 .nav-logo span{
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 .nav-menu {
@@ -105,8 +105,11 @@
 
 
   .nav-logo span{
-    margin-top: 7px;
+    margin-top: 10px;
     font-size: 1.5rem;
+  }
+  .nav-container img {
+    margin-top: 4px;
   }
 
   .nav-menu {
