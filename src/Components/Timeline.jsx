@@ -6,19 +6,19 @@ const timelineData = [
     date: "10th Feb 2024",
     title: "Problem Statement Submission",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae",
+      "Team Leader's are expected to submit their idea on portal in form of ppt",
   },
   {
     date: "23rd Feb - 29th Feb 2024",
     title: "Online Evaluation",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae",
+      "Online presentation round will be conducted during this span of time",
   },
   {
     date: "15th March - 17th March 2024",
     title: "Grand Finale",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae",
+      "All shortlisted teams will then compete in Grande Finale to win amazing prizes",
   },
 ];
 
