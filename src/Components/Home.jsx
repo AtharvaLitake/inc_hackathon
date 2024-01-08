@@ -11,7 +11,7 @@ const Home = () => {
                     PRESENTS
                 </h2>
                 <h1>
-                    TECHFIESTA - A TECH HACKATHON
+                    TECHFIESTA - INTERNATIONAL PICT HACKATHON
                 </h1>
                 <img src={logo_hack} alt="logo_of hackathon" />
             </div>

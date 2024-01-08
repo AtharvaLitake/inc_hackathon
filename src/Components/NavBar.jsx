@@ -44,12 +44,23 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 exact
+                to="/timeline"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Timeline
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
                 to="/problem"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                 P.Statements
+                 P.S.
               </NavLink>
             </li>
             <li className="nav-item">
@@ -74,17 +85,7 @@ function NavBar() {
                 Register
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/contact"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Contact
-              </NavLink>
-            </li>
+
           </ul>
           <div className="nav-icon" onClick={handleClick}>
             {/* <i className={click ? "fas fa-times" : "fas fa-bars"}></i> */}

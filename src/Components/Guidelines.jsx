@@ -6,7 +6,6 @@ const Guidelines = () => {
     return (
         <div>
             <Themes></Themes>
-            <Timeline></Timeline>
         </div>
     );
 }

@@ -8,6 +8,7 @@ import NavBar from "./Components/NavBar";
 import Register from "./Components/Register";
 import Contact from "./Components/Contact";
 import Register_Coming from "./Components/Register_Coming"
+import Timeline from "./Components/Timeline";
 function App() {
   return (
     <BrowserRouter>
@@ -18,7 +19,7 @@ function App() {
         <Route path="/problem" element={<Problem></Problem>}></Route>
         <Route path="/guidelines" element={<Guidelines></Guidelines>}></Route>
         <Route path="/register" element={<Register_Coming></Register_Coming>}></Route>
-        <Route path="/contact" element={<Contact></Contact>}></Route>
+        <Route path="/timeline" element={<Timeline></Timeline>}></Route>
       </Routes>
     </BrowserRouter>
   );
