@@ -10,6 +10,13 @@
     align-items: center;
     background-color: white;
     margin-top: 40px;
+    padding: 20px;
+}
+.footer_div h1
+{
+    color:#001727;
+    font-size: 5vh;
+    font-weight: 700;
 }
 .contact1
 {
@@ -21,4 +28,17 @@
     justify-content: center;
     justify-items: center;
     align-items: center;
+}
+.contact_info
+{
+    text-align: center;
+    width: 100%;
+}
+.contact_info p
+{
+
+}
+.contact_info i
+{
+    margin-right: 20px;
 }
