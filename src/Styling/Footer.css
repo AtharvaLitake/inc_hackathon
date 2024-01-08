@@ -1,44 +1,95 @@
-.footer_div
-{
-    width: 100%;
-    height: auto;
-    display: grid;
-    grid-template-columns: 100%;
-    row-gap: 20px;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    background-color: white;
-    margin-top: 40px;
-    padding: 20px;
+.footer_div {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 100%;
+  row-gap: 20px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  background-color: white;
+  margin-top: 10px;
+  padding: 20px;
 }
-.footer_div h1
-{
-    color:#001727;
-    font-size: 5vh;
-    font-weight: 700;
+.footer_div h1 {
+  color: #001727;
+  font-size: 4vh;
+  font-weight: 600;
+  padding: 10px;
 }
-.contact1
-{
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    column-gap: 10px;
-    row-gap: 20px;
-    width: 100%;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
+.contact1 {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  column-gap: 10px;
+  width: 100%;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
 }
-.contact_info
-{
-    text-align: center;
-    width: 100%;
+.contact2 {
+  display: grid;
+  grid-template-columns: 30% 30%;
+  column-gap: 10px;
+  row-gap: 10px;
+  width: 100%;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-top: 10px;
 }
-.contact_info p
-{
+.contact_info {
+  text-align: center;
+  width: 80%;
+  color: #001727;
+}
+.contact_info p {
+  font-size: 2.5vh;
+  font-weight: 500;
+}
+.contact_info i {
+  font-size: 2.5vh;
+  margin-right: 20px;
+}
 
+.footer_div,
+.contact1,
+.contact2 {
+  transition: all 0.8s ease-in-out;
 }
-.contact_info i
-{
-    margin-right: 20px;
+
+.contact_info:hover {
+  transform: scale(1.1);
 }
+
+.footer_div h1 {
+  transition: color 1s ease-in-out;
+}
+
+/*RESPONSIVENESS*/
+@media (max-width: 1150px) {
+    .contact_info {
+        width: 100%;
+      }
+      .contact_info p {
+        font-size: 2vh;
+        font-weight: 500;
+      }
+      .contact_info i {
+        font-size: 2vh;
+        margin-right: 20px;
+      }
+  }
+  
+  @media (max-width: 850px) {
+    .contact1 {
+        grid-template-columns:100%;
+        row-gap: 20px;
+      }
+      .contact2 {
+        grid-template-columns:100%;
+        row-gap: 20px;
+      }
+  }
+  @media (max-width: 650px) {
+
+  }
