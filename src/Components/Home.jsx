@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Styling/Home.css'
+import Footer from '../Components/Footer'
 import logo_hack from '../Assets/logo.png'
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
                 </h1>
                 <img src={logo_hack} alt="logo_of hackathon" />
             </div>
+            <Footer></Footer>
         </div>
     );
 }

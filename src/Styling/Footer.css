@@ -1,0 +1,24 @@
+.footer_div
+{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 40px;
+}
+.contact1
+{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 10px;
+    row-gap: 20px;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
