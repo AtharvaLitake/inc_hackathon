@@ -1,5 +1,5 @@
 .coming_soon {
-  height: 70vh;
+  height: 85vh;
   width: 100%;
   display: grid;
   grid-template-columns: 100%;
@@ -45,12 +45,17 @@
   .coming_content {
     width: 80%;
   }
-  .coming_soon h1,.coming_soon i{
+  .coming_soon h1{
     font-size: 6.5vh;
   }
 }
 @media screen and (max-width: 800px) {
-  .coming_soon h1,.coming_soon i{
-    font-size: 4.5vh;
+  .coming_soon h1{
+    font-size: 4.8vh;
   }
 }
+@media screen and (max-width: 650px) {
+    .coming_soon i{
+      font-size: 6.5vh;
+    }
+  }
