@@ -14,7 +14,7 @@ function NavBar() {
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
             <img src={logo1} alt="" />
-            <span>TechFiesta</span>
+            <span>TechFieasta</span>
             {/* <i className="fas fa-code"></i> */}
           </NavLink>
 

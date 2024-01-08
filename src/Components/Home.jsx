@@ -10,7 +10,7 @@ const Home = () => {
                     PRESENTS
                 </h2>
                 <h1>
-                    TECHFIESTA - A TECH HACKATHON
+                    TECHFIEASTA - A TECH HACKATHON
                 </h1>
                 <img src={logo_hack} alt="logo_of hackathon" />
             </div>

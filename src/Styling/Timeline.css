@@ -69,15 +69,6 @@
   }
   
   @media only screen and (min-width: 760px) {
-    .timeline::before {
-      content: "";
-      position: absolute;
-      height: 100%;
-      width: 1px;
-      background-color: grey;
-      left: 51.32%;
-      transform: translateX(-50%);
-    }
   
     .timeline ul li {
       width: 50%;
