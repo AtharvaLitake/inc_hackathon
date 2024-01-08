@@ -6,7 +6,6 @@
     font-weight: 800;
     font-size: 45px;
     margin-top: 40px;
-    margin-bottom: 30px;
   }
   
   .time_container {
@@ -23,6 +22,7 @@
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
+    margin-top: 60px;
   }
   
   .timeline ul {
