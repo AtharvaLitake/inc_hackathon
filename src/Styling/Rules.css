@@ -1,0 +1,51 @@
+.rules {
+  display: grid;
+  grid-template-columns: 100%;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  row-gap: 20px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.rules h1 {
+  color: #ebe718;
+  font-size: 45px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.rule
+{
+    width: 80%;
+}
+.rule h2 {
+  color: #ebe718;
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.rule ul li
+{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+li .imp
+{
+    color: #ebe718;
+}
+/*RESPONSIVENESS*/
+  @media (max-width: 850px) {
+    .rules h1 {
+      font-size: 35px;
+      font-weight: 800;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+    .rule h2 {
+        font-size: 25px;
+      }
+  }
+  
