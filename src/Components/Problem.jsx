@@ -33,7 +33,7 @@ const Problem = () => {
     <div className="problem">
       <div className="problem_statements">
         <h1>PROBLEM STATEMENTS</h1>
-        <div className="table-responsive " style={{ borderRadius: "8px" }}>
+        <div className="table-responsive " style={{ borderRadius: "10px" }}>
           <table className="table table-hover"  >
             <thead >
               <tr>

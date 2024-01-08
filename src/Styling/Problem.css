@@ -15,27 +15,38 @@
   justify-content: center;
   align-content: center;
   text-align: center;
-  width: 80%;
+  margin-inline: 25px;
 }
+
 .problem_statements h1 {
   color: #ebe718;
   font-weight: 800;
   margin-bottom: 40px;
   margin-top: 40px;
 }
-.table-responsive
-{
+
+.table-responsive {
   height: auto;
+  width: 100%;
+  overflow-x: auto;
 }
+
+table {
+  min-width: 800px;
+  max-width: 1000px;
+}
+
 tr {
   color: #001727;
   font-size: 20px;
 }
+
 th {
   color: #001727;
   font-weight: 700;
   font-size: 26px;
 }
+
 .statement {
   text-align: justify;
 }
@@ -49,10 +60,12 @@ th {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 /*responsive code*/
 
 /* Responsive styles using media queries */
@@ -62,12 +75,9 @@ th {
   }
 
   .table {
-    width: 100%;
     margin-bottom: 1rem;
     color: #212529;
     border-collapse: collapse;
-    min-width: 100%;
-    overflow: hidden;
   }
 
   .table th,
@@ -96,4 +106,3 @@ th {
     word-wrap: break-word;
   }
 }
-
