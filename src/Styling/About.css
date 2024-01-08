@@ -64,6 +64,10 @@
   }
 }
 @media (max-width: 900px) {
+  .about_us h1
+  {
+    font-size: 35px;
+  }
   .about_pict1{
     grid-template-columns: 100%;
   }
