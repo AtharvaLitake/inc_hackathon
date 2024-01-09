@@ -9,15 +9,14 @@
   align-items: center;
   align-content: center;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .main_page img {
   width: 50%;
   margin-bottom: 5vh;
 }
-.content-home img
-{
+.content-home img {
   margin-top: 40px;
   width: 100%;
 }
@@ -30,7 +29,6 @@
   align-items: center;
   width: 85%;
   text-align: center;
-  margin-top: 8vh;
 }
 
 .content-home h2 {
@@ -52,34 +50,64 @@
   }
 }
 
-.main_page  h1 {
+.main_page h1 {
   color: #ebe718;
   font-weight: 800;
   animation: glow 2s infinite;
   padding: 2vh;
 }
+
+.marquee
+{
+  width: 100%;
+  background-color: #ebe718;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 10px;
+}
+.marquee h4
+{
+  display: inline-block;
+  animation: marqueeAnimation 5s linear infinite;
+}
+@keyframes marqueeAnimation {
+  0% {
+    transform: translateX(45%);
+  }
+  100% {
+    transform: translateX(-52%);
+  }
+}
+
+/* RESPONSIVENESS */
+@media (max-width: 650px) {
+  .marquee {
+    font-size: 2.5vh;
+  }
+}
+
 /*RESPONSIVENESS*/
 @media (max-width: 1150px) {
   .content-home h2 {
     font-size: 3.5vh;
   }
-  .main_page  h1 {
+  .main_page h1 {
     font-size: 4vh;
   }
   .main_page img {
     width: 90%;
   }
-  .content-home 
-  {
+  .content-home {
     margin-top: 30%;
     grid-template-columns: 100%;
   }
-  .content-home  img
-  {
+  .content-home img {
     width: 100%;
   }
-  .content-home img
-  {
+  .content-home img {
     margin-bottom: 0px;
     margin-top: 0px;
   }
@@ -90,21 +118,15 @@
     font-size: 3vh;
     line-height: 5vh;
   }
-  .main_page  h1 {
+  .main_page h1 {
     font-size: 3.5vh;
   }
   .main_page img {
     width: 90%;
   }
-  .content-home 
-  {
-    margin-top: 20%;
-  }
-  .content-home img
-  {
+  .content-home img {
     margin-bottom: 0px;
   }
-
 }
 
 @media (max-width: 850px) {
@@ -112,14 +134,13 @@
     font-size: 3vh;
     line-height: 4vh;
   }
-  .main_page  h1 {
+  .main_page h1 {
     font-size: 3vh;
   }
   .main_page img {
     width: 100%;
   }
-  .content-home 
-  {
+  .content-home {
     margin-top: 15%;
   }
 }
