@@ -36,9 +36,11 @@ const Rules = () => {
             registration(including registration fees) is required.
           </li>
           <li>
+            <span className="imp">
             The teams registered for TechFiesta shall be allowed to participate
             in Impetus n Concepts 2024 other subevents (free of charges).
             However, such teams must register for those events separately.
+            </span>
           </li>
         </ul>
       </div>
