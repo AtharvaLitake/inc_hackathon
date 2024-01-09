@@ -62,7 +62,7 @@
   width: 100%;
   background-color: #ebe718;
   margin-top: 40px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   text-align: center;
   font-size: 22px;
   font-weight: 600;
@@ -71,7 +71,7 @@
 .marquee h4
 {
   display: inline-block;
-  animation: marqueeAnimation 5s linear infinite;
+  animation: marqueeAnimation 8s linear infinite;
 }
 @keyframes marqueeAnimation {
   0% {
@@ -127,6 +127,11 @@
   .content-home img {
     margin-bottom: 0px;
   }
+  .marquee
+{
+  text-align: center;
+  font-size: 16px;
+}
 }
 
 @media (max-width: 850px) {
@@ -141,7 +146,7 @@
     width: 100%;
   }
   .content-home {
-    margin-top: 15%;
+    margin-top: 0%;
   }
 }
 @media (max-width: 650px) {
