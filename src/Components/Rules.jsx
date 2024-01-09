@@ -16,6 +16,9 @@ const Rules = () => {
             Each team would mandatorily comprise of minimum 4 & maximum of 6
             members including the team leader..
           </li>
+          <li>
+            <span className="imp">One member one team only</span>
+          </li>
         </ul>
       </div>
       <div className="rule">
@@ -37,9 +40,10 @@ const Rules = () => {
           </li>
           <li>
             <span className="imp">
-            The teams registered for TechFiesta shall be allowed to participate
-            in Impetus n Concepts 2024 other subevents (free of charges).
-            However, such teams must register for those events separately.
+              The teams registered for TechFiesta shall be allowed to
+              participate in Impetus n Concepts 2024 other subevents (free of
+              charges). However, such teams must register for those events
+              separately.
             </span>
           </li>
         </ul>
@@ -52,7 +56,7 @@ const Rules = () => {
             will be shortlisted for further rounds.
           </li>
           <li>
-            Nominated Team’s team leader will get the notifications through mail
+            Nominated Team's team leader will get the notifications through mail
             to complete the idea submission process.
           </li>
           <li>
