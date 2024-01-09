@@ -16,6 +16,7 @@ const Rules = () => {
             Each team would mandatorily comprise of minimum 4 and maximum of 6
             members including the team leader.
           </li>
+          <li>Student can be member of one team only.</li>
         </ul>
       </div>
       <div className="rule">
