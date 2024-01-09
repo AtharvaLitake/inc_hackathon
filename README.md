@@ -23,14 +23,17 @@ This web application was created by me using React for the purpose of organizing
 
 ## Snippets
 
-![Home](https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/9ab4c8a1-da8e-46be-9651-76b7aa33aa18)
+<img width="947" alt="HomePage" src="https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/f85f4b6f-2c10-414d-8fb4-9643d4675190">
 
+<img width="947" alt="domains" src="https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/508eb121-330d-4b15-a3ea-8101d78bf030">
 
-![problem](https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/bee521d8-514f-431c-8e5d-7011cf4f17ba)
+<img width="947" alt="Guidelines" src="https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/8678bea3-d334-4ed4-befc-324af506daa9">
 
+<img width="946" alt="Timeline" src="https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/27ccfdc5-df56-4f69-bddc-759ad13d82aa">
 
-![register](https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/6656a025-53c3-4bf6-bbbb-0c78dbfceffe)
+<img width="947" alt="Problem_Statements" src="https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/119d6abe-1a15-4337-938c-8b04ec2868f6">
 
+<img width="949" alt="About" src="https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/b520c1ad-ff16-4ae4-a919-b5532d74e7c4">
 
 ## Copyright!
  Atharva Litake ( Pune Institute of Computer Technology )
