@@ -23,17 +23,17 @@ This web application was created by me using React for the purpose of organizing
 
 ## Snippets
 
-<img width="947" alt="HomePage" src="https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/f85f4b6f-2c10-414d-8fb4-9643d4675190">
+![HomePage](https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/f85f4b6f-2c10-414d-8fb4-9643d4675190)
 
-<img width="947" alt="domains" src="https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/508eb121-330d-4b15-a3ea-8101d78bf030">
+![Domains](https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/508eb121-330d-4b15-a3ea-8101d78bf030)
 
-<img width="947" alt="Guidelines" src="https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/8678bea3-d334-4ed4-befc-324af506daa9">
+![Guidelines](https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/8678bea3-d334-4ed4-befc-324af506daa9)
 
-<img width="946" alt="Timeline" src="https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/27ccfdc5-df56-4f69-bddc-759ad13d82aa">
+![Timeline](https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/27ccfdc5-df56-4f69-bddc-759ad13d82aa)
 
-<img width="947" alt="Problem_Statements" src="https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/119d6abe-1a15-4337-938c-8b04ec2868f6">
+![Problem Statements](https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/119d6abe-1a15-4337-938c-8b04ec2868f6)
 
-<img width="949" alt="About" src="https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/b520c1ad-ff16-4ae4-a919-b5532d74e7c4">
+![About](https://github.com/AtharvaLitake/inc_hackathon/assets/112816126/b520c1ad-ff16-4ae4-a919-b5532d74e7c4)
 
 ## Copyright!
  Atharva Litake ( Pune Institute of Computer Technology )
@@ -42,4 +42,3 @@ This web application was created by me using React for the purpose of organizing
 For any inquiries or issues, please contact litakeatharva24@gmail.com
 
 Happy hacking!
-
