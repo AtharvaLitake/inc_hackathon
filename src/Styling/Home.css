@@ -73,7 +73,7 @@
 .marquee h4 {
   display: inline-block;
   overflow: hidden;
-  animation: marqueeAnimation 10s linear infinite;
+  animation: marqueeAnimation 12s linear infinite;
 }
 @keyframes marqueeAnimation {
   0% {

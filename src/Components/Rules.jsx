@@ -13,11 +13,8 @@ const Rules = () => {
             college/ institute are encouraged to form a team.
           </li>
           <li>
-            Each team would mandatorily comprise of minimum 4 & maximum of 6
-            members including the team leader..
-          </li>
-          <li>
-            <span className="imp">One member one team only</span>
+            Each team would mandatorily comprise of minimum 4 and maximum of 6
+            members including the team leader.
           </li>
         </ul>
       </div>
