@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
         <div className="contact_info">
           <p>
-            <i class="fa-solid fa-mobile-screen"></i>+91-8237095572
+            <i class="fa-solid fa-mobile-screen"></i><a href="tel:8237095572">+91-8237095572</a>
           </p>
         </div>
       </div>
