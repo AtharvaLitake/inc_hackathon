@@ -5,7 +5,7 @@ const problemStatements = [
   {
     id: 1001,
     statement:
-      "Most of the Countries collect information/ maintain inventory on the Chemical and Petrochemical sector for monitoring and policy making to improve this sector. There is standard practice for data collection for those countries who are the member of the United Nations Statistical Commission (UNSC) and other countries. ",
+      "Patient Engagement and Adherence Description Design a solution to improve patient engagement and adherence to treatment plans,medications, and follow-up appointments, especially for chronic conditions.Input: Patient health records, treatment plans, and historical adherence data.Output: A mobile application that sends personalized reminders, tracks medication adherence, and provides insights to healthcare providers on patient engagement.",
     category: "AGRICULTURE",
   },
   {
@@ -34,8 +34,8 @@ const Problem = () => {
       <div className="problem_statements">
         <h1>PROBLEM STATEMENTS</h1>
         <div className="table-responsive " style={{ borderRadius: "10px" }}>
-          <table className="table table-hover"  >
-            <thead >
+          <table className="table table-hover">
+            <thead>
               <tr>
                 <th scope="col">NO</th>
                 <th scope="col" className="col-3">
