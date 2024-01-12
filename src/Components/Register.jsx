@@ -25,13 +25,12 @@ const Register = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     if (!emailRegex.test(data.email)) {
-     
       toast.error("Invalid email format");
-      return
+      return;
     }
     const mobileRegex = /^\d{10}$/;
 
@@ -39,11 +38,10 @@ const Register = () => {
       toast.error("Invalid mobile number format");
       return;
     }
-    
-  
+
     try {
       const formData = {
-        team_name: data.team_name,
+        team_name: data.team_name.toLowerCase(),
         problem_id: data.problem_id,
         college: data.college,
         place: data.place,
@@ -60,17 +58,15 @@ const Register = () => {
         body: JSON.stringify(formData),
       });
       await response.json();
-      console.log(response)
+      console.log(response);
       if (response.status === 401) {
         toast.error("Email/Phone already registered with us");
-      } 
-      else if(response.status===402)
-      {
+      } else if (response.status === 402) {
         toast.error("Team Name Already Registered");
-      }
-      else {
+      } else if(response.status===201){
         navigate("/success");
       }
+      
     } catch (er) {
       console.log(er);
       toast.error("An error occurred. Please try again.");
@@ -89,9 +85,11 @@ const Register = () => {
               type="text"
               required
               name="team_name"
+              pattern="[A-Za-z ]+"
               value={data.team_name}
               autoComplete="off"
               onChange={handleChange}
+              title="Please enter only [a-z] characters"
             />
             <br />
             <label htmlFor="problem_id">Problem Statement ID</label>
@@ -114,8 +112,10 @@ const Register = () => {
               required
               name="leader_name"
               value={data.leader_name}
+              pattern="[A-Za-z ]+"
               autoComplete="off"
               onChange={handleChange}
+              title="Please enter only [a-z] characters"
             />
             <br />
             <label htmlFor="email">Email Id</label>
@@ -138,6 +138,8 @@ const Register = () => {
               value={data.mobile}
               autoComplete="off"
               onChange={handleChange}
+              pattern="[0-9]+"
+              title="Please enter only numeric characters"
             />
             <br />
           </div>
@@ -147,10 +149,12 @@ const Register = () => {
             <input
               type="text"
               required
+              pattern="[A-Za-z ]+"
               name="college"
               value={data.college}
               autoComplete="off"
               onChange={handleChange}
+              title="Please enter only [a-z] characters"
             />
             <br />
             <label htmlFor="place">College Location</label>
@@ -162,6 +166,8 @@ const Register = () => {
               value={data.place}
               autoComplete="off"
               onChange={handleChange}
+              pattern="[A-Za-z ]+"
+              title="Please enter only [a-z] characters"
             />
             <br />
             <div className="payment_image">
@@ -176,6 +182,8 @@ const Register = () => {
               value={data.utr}
               autoComplete="off"
               onChange={handleChange}
+              pattern="[A-Za-z0-9]+"
+              title="Please don't enter special characters like @,$,#..."
             />
           </div>
           <div className="form_div1">
