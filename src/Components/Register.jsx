@@ -1,347 +1,199 @@
-import React from "react";
-import "../Styling/Register.css";
-import { useState } from "react";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import "../Styling/Register.css";
+import QR from "../Assets/payment_image.jpg";
+
 const Register = () => {
+  const navigate = useNavigate();
+
   const [data, setData] = useState({
     team_name: "",
-    problem_id: "",
+    problem_id: "1001",
     college: "",
-    name1: "",
-    name2: "",
-    name3: "",
-    name5: "",
-    name6: "",
-    name4: "",
-    email1: "",
-    email2: "",
-    email3: "",
-    email4: "",
-    email5: "",
-    email6: "",
-    mobile1: "",
-    mobile2: "",
-    mobile4: "",
-    mobile3: "",
-    mobile5: "",
-    mobile6: "",
+    place: "",
+    leader_name: "",
+    email: "",
+    mobile: "",
+    utr: "",
   });
+
   function handleChange(e) {
     setData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   }
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-    var studentsA = [];
-    if (data.name1 && data.email1 && data.mobile1) {
-      studentsA.push({
-        name: data.name1,
-        email: data.email1,
-        mobile: Number(data.mobile1),
-      });
+    
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (!emailRegex.test(data.email)) {
+     
+      toast.error("Invalid email format");
+      return
     }
-    if (data.name2 && data.email2 && data.mobile2) {
-      studentsA.push({
-        name: data.name2,
-        email: data.email2,
-        mobile: Number(data.mobile2),
-      });
+    const mobileRegex = /^\d{10}$/;
+
+    if (!mobileRegex.test(data.mobile)) {
+      toast.error("Invalid mobile number format");
+      return;
     }
-    if (data.name3 && data.email3 && data.mobile3) {
-      studentsA.push({
-        name: data.name3,
-        email: data.email3,
-        mobile: Number(data.mobile3),
-      });
-    }
-    if (data.name4 && data.email4 && data.mobile4) {
-      studentsA.push({
-        name: data.name4,
-        email: data.email4,
-        mobile: Number(data.mobile4),
-      });
-    }
-    if (data.name5 && data.email5 && data.mobile5) {
-      studentsA.push({
-        name: data.name5,
-        email: data.email5,
-        mobile: Number(data.mobile5),
-      });
-    }
-    if (data.name6 && data.email6 && data.mobile6) {
-      studentsA.push({
-        name: data.name6,
-        email: data.email6,
-        mobile: Number(data.mobile6),
-      });
-    }
-    console.log(data.problem_id);
+    
+  
     try {
-      const DataForm = {
+      const formData = {
         team_name: data.team_name,
-        college: data.college,
         problem_id: data.problem_id,
-        students: studentsA,
+        college: data.college,
+        place: data.place,
+        leader_name: data.leader_name,
+        email: data.email,
+        mobile: Number(data.mobile),
+        utr: data.utr,
       };
-      const response = await fetch("http://localhost:8080/form", {
+      const response = await fetch("http://3.109.200.3:8000/form", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(DataForm),
+        body: JSON.stringify(formData),
       });
       await response.json();
-      if (response.status == 401) {
-        toast.error("Email/Phone already registerd with us");
-      } else {
-        toast.success("Registeration Successful", {
-          position: "top-right",
-          autoClose: 4000,
-          hideProgressBar: true,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-          style: {
-            background: "#ebe718",
-            color: "black",
-            fontWeight: "400",
-            fontSize: "18px",
-          },
-        });
+      console.log(response)
+      if (response.status === 401) {
+        toast.error("Email/Phone already registered with us");
+      } 
+      else if(response.status===402)
+      {
+        toast.error("Team Name Already Registered");
       }
-    } catch (e) {}
+      else {
+        navigate("/success");
+      }
+    } catch (er) {
+      console.log(er);
+      toast.error("An error occurred. Please try again.");
+    }
   };
+
   return (
     <form onSubmit={handleSubmit}>
-      <div className="register">
-        <h1>REGISTER NOW</h1>
-        <div className="registeration_form">
-          <div className="college_ps">
-            <div className="details">
-              <input
-                type="text"
-                placeholder="Team Name"
-                name="team_name"
-                onChange={handleChange}
-                value={data.team_name}
-              />
-            </div>
-            <div className="details">
-              <input
-                type="text"
-                placeholder="College Name"
-                name="college"
-                value={data.college}
-                onChange={handleChange}
-              />
-            </div>
-            <div className="details">
-              <select
-                id="dropdown"
-                name="problem_id"
-                value={data.problem_id}
-                onChange={handleChange}
-              >
-                <option value="pid" disabled selected>
-                  Problem ID
-                </option>
-                <option value="option1">1001</option>
-                <option value="option2">1002</option>
-                <option value="option3">1003</option>
-              </select>
-            </div>
+      <div className="main_register">
+        <h1>Register Now</h1>
+        <div className="register_form">
+          <div className="form_div1">
+            <label htmlFor="team_name">Team Name</label>
+            <br />
+            <input
+              type="text"
+              required
+              name="team_name"
+              value={data.team_name}
+              autoComplete="off"
+              onChange={handleChange}
+            />
+            <br />
+            <label htmlFor="problem_id">Problem Statement ID</label>
+            <select
+              id="problem"
+              name="problem_id"
+              value={data.problem_id}
+              onChange={handleChange}
+            >
+              <option value="1001">1001</option>
+              <option value="1002">1002</option>
+              <option value="1003">1003</option>
+              <option value="1004">1004</option>
+            </select>
+            <br />
+            <label htmlFor="leader_name">Name of Leader</label>
+            <br />
+            <input
+              type="text"
+              required
+              name="leader_name"
+              value={data.leader_name}
+              autoComplete="off"
+              onChange={handleChange}
+            />
+            <br />
+            <label htmlFor="email">Email Id</label>
+            <br />
+            <input
+              type="email"
+              required
+              name="email"
+              value={data.email}
+              autoComplete="off"
+              onChange={handleChange}
+            />
+            <br />
+            <label htmlFor="mobile">Mobile Number</label>
+            <br />
+            <input
+              type="text"
+              required
+              name="mobile"
+              value={data.mobile}
+              autoComplete="off"
+              onChange={handleChange}
+            />
+            <br />
           </div>
-          <div className="member_details">
-            <div className="members">
-              <h1>Member 1</h1>
-              <div className="details">
-                <input
-                  type="text"
-                  placeholder="Leader's Name"
-                  name="name1"
-                  value={data.name1}
-                  onChange={handleChange}
-                />
-              </div>
-              <div className="details">
-                <input
-                  type="email"
-                  placeholder="Email-Id"
-                  name="email1"
-                  value={data.email1}
-                  onChange={handleChange}
-                />
-              </div>
-              <div className="details">
-                <input
-                  type="number"
-                  placeholder="Mobile No"
-                  name="mobile1"
-                  value={data.mobile1}
-                  onChange={handleChange}
-                />
-              </div>
+          <div className="form_div1">
+            <label htmlFor="college">College Name</label>
+            <br />
+            <input
+              type="text"
+              required
+              name="college"
+              value={data.college}
+              autoComplete="off"
+              onChange={handleChange}
+            />
+            <br />
+            <label htmlFor="place">College Location</label>
+            <br />
+            <input
+              type="text"
+              required
+              name="place"
+              value={data.place}
+              autoComplete="off"
+              onChange={handleChange}
+            />
+            <br />
+            <div className="payment_image">
+              <img src={QR} alt="" />
             </div>
-            <div className="members">
-              <h1>Member 2</h1>
-              <div className="details">
-                <input
-                  type="text"
-                  placeholder="Member Name"
-                  name="name2"
-                  value={data.name2}
-                  onChange={handleChange}
-                />
-              </div>
-              <div className="details">
-                <input
-                  type="email"
-                  placeholder="Email-Id"
-                  name="email2"
-                  value={data.email2}
-                  onChange={handleChange}
-                />
-              </div>
-              <div className="details">
-                <input
-                  type="number"
-                  placeholder="Mobile No"
-                  name="mobile2"
-                  value={data.mobile2}
-                  onChange={handleChange}
-                />
-              </div>
-            </div>
-            <div className="members">
-              <h1>Member 3</h1>
-              <div className="details">
-                <input
-                  type="text"
-                  placeholder="Member Name"
-                  name="name3"
-                  value={data.name3}
-                  onChange={handleChange}
-                />
-              </div>
-              <div className="details">
-                <input
-                  type="email"
-                  placeholder="Email-Id"
-                  name="email3"
-                  value={data.email3}
-                  onChange={handleChange}
-                />
-              </div>
-              <div className="details">
-                <input
-                  type="number"
-                  placeholder="Mobile No"
-                  name="mobile3"
-                  value={data.mobile3}
-                  onChange={handleChange}
-                />
-              </div>
-            </div>
-            <div className="members">
-              <h1>Member 4</h1>
-              <div className="details">
-                <input
-                  type="text"
-                  placeholder="Member Name"
-                  name="name4"
-                  value={data.name4}
-                  onChange={handleChange}
-                />
-              </div>
-              <div className="details">
-                <input
-                  type="email"
-                  placeholder="Email-Id"
-                  name="email4"
-                  value={data.email4}
-                  onChange={handleChange}
-                />
-              </div>
-              <div className="details">
-                <input
-                  type="number"
-                  placeholder="Mobile No"
-                  name="mobile4"
-                  value={data.mobile4}
-                  onChange={handleChange}
-                />
-              </div>
-            </div>
-            <div className="members">
-              <h1>Member 5</h1>
-              <div className="details">
-                <input
-                  type="text"
-                  placeholder="Member Name"
-                  name="name5"
-                  value={data.name5}
-                  onChange={handleChange}
-                />
-              </div>
-              <div className="details">
-                <input
-                  type="email"
-                  placeholder="Email-Id"
-                  name="email5"
-                  value={data.email5}
-                  onChange={handleChange}
-                />
-              </div>
-              <div className="details">
-                <input
-                  type="number"
-                  placeholder="Mobile No"
-                  name="mobile5"
-                  value={data.mobile5}
-                  onChange={handleChange}
-                />
-              </div>
-            </div>
-            <div className="members">
-              <h1>Member 6</h1>
-              <div className="details">
-                <input
-                  type="text"
-                  placeholder="Member Name"
-                  name="name6"
-                  value={data.name6}
-                  onChange={handleChange}
-                />
-              </div>
-              <div className="details">
-                <input
-                  type="email"
-                  placeholder="Email-Id"
-                  name="email6"
-                  value={data.email6}
-                  onChange={handleChange}
-                />
-              </div>
-              <div className="details">
-                <input
-                  type="number"
-                  placeholder="Mobile No"
-                  name="mobile6"
-                  value={data.mobile6}
-                  onChange={handleChange}
-                />
-              </div>
-            </div>
+            <label htmlFor="utr">Bank Transaction Id</label>
+            <br />
+            <input
+              type="text"
+              required
+              name="utr"
+              value={data.utr}
+              autoComplete="off"
+              onChange={handleChange}
+            />
           </div>
-          <div className="submit_button">
-            <button>
-              Submit &nbsp;<i class="fa-solid fa-check"></i>
-            </button>
+          <div className="form_div1">
+            <div className="checkbox-style">
+              <input type="checkbox" required />
+            </div>
+            <label>I have read all the instructions</label>
+          </div>
+          <div className="form_div1">
+            <div className="button_form_div">
+              <button type="submit">
+                Submit <i className="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
           </div>
         </div>
       </div>
-      <ToastContainer></ToastContainer>
+      <ToastContainer />
     </form>
   );
 };
