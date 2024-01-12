@@ -26,7 +26,7 @@ const Home = () => {
             <h4>PRESENTS</h4>
           </div>
         </div>
-        <h1>TECHFIESTA - PICT INTERNATIONAL HACKATHON</h1>
+        <h1>TECHFIESTA - AN INTERNATIONAL HACKATHON</h1>
         <img src={logo_hack} alt="logo_of hackathon" />
       </div>
     </>
