@@ -9,7 +9,6 @@ import NavBar from "./Components/NavBar";
 import Register_Coming from "./Components/Register_Coming"
 import Timeline from "./Components/Timeline";
 import './App.css'
-import Footer from "./Components/Footer";
 import Problem from "./Components/Problem";
 import Register from "./Components/Register";
 import Submit from "./Components/Submit";
