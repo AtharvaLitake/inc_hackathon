@@ -50,7 +50,7 @@ const Register = () => {
         mobile: Number(data.mobile),
         utr: data.utr,
       };
-      const response = await fetch("http://3.109.200.3:8000/form", {
+      const response = await fetch("http://52.172.8.180:8000/form", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

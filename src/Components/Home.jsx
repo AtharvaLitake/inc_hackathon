@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <div className="marquee">
         <h4>
-          <i class="fa-solid fa-bell"></i>&nbsp;&nbsp;NOW PARTICIPATE AND WIN
+          <i class="fa-solid fa-bell"></i>&nbsp;&nbsp;PARTICIPATE NOW AND WIN
           AMAZING PRIZE MONEY WORTH 3.5 LAKH + &nbsp;&nbsp;
           <i class="fa-solid fa-bell"></i>
         </h4>
