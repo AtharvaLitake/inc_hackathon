@@ -22,10 +22,10 @@
 }
 
 .nav-container img {
-  width: 120px;
+  width: 125px;
   height: 68%;
   margin-right: 20px;
-  margin-top: 8px;
+  margin-left: 20px;
 }
 
 .nav-logo {
@@ -107,9 +107,6 @@
   .nav-logo span{
     margin-top: 10px;
     font-size: 1.5rem;
-  }
-  .nav-container img {
-    margin-top: 4px;
   }
 
   .nav-menu {
