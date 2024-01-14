@@ -133,4 +133,11 @@ option {
   option {
     width: 20%;
   }
+  .read_inst
+  {
+    font-size: 18px !important;
+  }
+  .checkbox-style input {
+    height: 18px;
+  }
 }

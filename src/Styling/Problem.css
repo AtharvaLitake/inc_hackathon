@@ -11,6 +11,7 @@
 .problem_statements {
   display: grid;
   grid-template-columns: 100%;
+  width: 90%;
   justify-items: center;
   justify-content: center;
   align-content: center;
@@ -33,13 +34,12 @@
 }
 
 table {
-  min-width: 800px;
-  max-width: 1400px;
+  width: 100%
 }
 
 tr {
   color: #001727;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 th {
@@ -49,12 +49,40 @@ th {
 }
 
 .statement {
-  text-align: justify;
+  text-align: center;;
 }
 
 .table-hover {
   margin-bottom: 0px;
   animation: fadeIn 1s ease;
+}
+.dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0px 10px rgba(74, 74, 74, 0.32);
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.dialog-content {
+  text-align: justify;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.dialog h2
+{
+  text-align: left;
 }
 
 @keyframes fadeIn {
@@ -111,4 +139,23 @@ th {
   .statement {
     word-wrap: break-word;
   }
+  .dialog {
+    font-size: 12px;
+    max-width: 90%;
+    width: 300px; /* Adjust as needed for your design */
+  }
+  th {
+    color: #001727;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+tr {
+  font-size: 18px;
+}
+.dialog h2
+{
+  text-align: left;
+  font-size: 16px;
+}
 }
