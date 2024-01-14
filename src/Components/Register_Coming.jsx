@@ -5,7 +5,7 @@ const RegisterComing = () => {
     <div className="coming_soon">
       <div className="coming_content">
         <i class="fa-regular fa-clock"></i>
-        <h1>Registrations Opening on 14th Jan 24</h1>
+        <h1>Registrations Opening on 15th Jan 24</h1>
       </div>
     </div>
   );
