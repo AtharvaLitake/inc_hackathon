@@ -33,9 +33,15 @@ const Rules = () => {
             your institute in any form.
           </li>
           <li>
+            <span className="imp">
+              Regsitration Fee for the event is <b>&#8377; 1000 /-</b>
+            </span>
+          </li>
+          <li>
             Each team can submit multiple ideas. However, for each idea new
             registration(including registration fees) is required.
           </li>
+
           <li>
             <span className="imp">
               The teams registered for TechFiesta shall be allowed to
