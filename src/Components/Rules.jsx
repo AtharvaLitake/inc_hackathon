@@ -34,7 +34,7 @@ const Rules = () => {
           </li>
           <li>
             <span className="imp">
-              Regsitration Fee for the event is <b>&#8377; 1000 /-</b>
+              Registration Fee for the event is <b>&#8377; 1000 /-</b>
             </span>
           </li>
           <li>
