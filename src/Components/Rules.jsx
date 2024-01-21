@@ -34,7 +34,15 @@ const Rules = () => {
           </li>
           <li>
             <span className="imp">
-              Registration Fee for the event is <b>&#8377; 1000 /-</b>
+              Registration Fee for the event is <b>&#8377; 400 /- (Till 31st Jan)</b>
+            </span>
+          </li>
+          <li>
+            <span className="imp">
+              From 21st Jan - 31st Jan , Registration Fee - &#8377; 400 /- <br />
+              From 1st Feb - 8th Feb , Registration Fee - &#8377; 600 /- <br />
+              From 9st Feb - 15th Feb , Registration Fee - &#8377; 1000 /- <br />
+              International teams, before registration, please email <a href="mailto:litakeatharva24@gmail.com">litakeatharva24@gmail.com</a>
             </span>
           </li>
           <li>
