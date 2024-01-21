@@ -8,11 +8,10 @@ import pict_logo from "../Assets/pict_logo.png";
 const Home = () => {
   return (
     <>
+
       <div className="marquee">
         <h4>
-          <i class="fa-solid fa-bell"></i>&nbsp;&nbsp;PARTICIPATE NOW AND WIN
-          AMAZING PRIZE MONEY WORTH 3.5 LAKH + &nbsp;&nbsp;
-          <i class="fa-solid fa-bell"></i>
+          REGISTRATION FEE - <b>&#8377; 400 /- </b>(Till 31st Jan)
         </h4>
       </div>
       <div className="main_page">

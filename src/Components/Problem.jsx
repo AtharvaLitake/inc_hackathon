@@ -125,8 +125,7 @@ const problemStatements = [
     id: 3003,
     title: "Language Learning Support",
     desc: "Build a system that assists language learners in improving their speaking and pronunciation skills. ",
-    input:
-      "Audio recordings of learners speaking in the target language.",
+    input: "Audio recordings of learners speaking in the target language.",
     output:
       " Pronunciation feedback, suggestions for improvement, and progress tracking. ",
     category: "Education Technology",
@@ -145,8 +144,7 @@ const problemStatements = [
     id: 3005,
     title: "Career Guidance Chatbot",
     desc: "Develop an intelligent Career Guidance Chatbot that provides tailored career advice, guidance on skill development, and relevant information about various professions. ",
-    input:
-      "Student profiles, interests, and career information.",
+    input: "Student profiles, interests, and career information.",
     output:
       "An intelligent chatbot that assists students in making informed career choices by providing personalized guidance and resources.",
     category: "Education Technology",
@@ -216,6 +214,13 @@ const Problem = () => {
 
   return (
     <div className="problem">
+      <div className="marquee">
+        <h4>
+          <i class="fa-solid fa-bell"></i>&nbsp;&nbsp;PARTICIPATE NOW AND WIN
+          AMAZING PRIZE MONEY WORTH 3.5 LAKH + &nbsp;&nbsp;
+          <i class="fa-solid fa-bell"></i>
+        </h4>
+      </div>
       <div className="problem_statements">
         <h1>PROBLEM STATEMENTS</h1>
         <div className="table-responsive " style={{ borderRadius: "10px" }}>
