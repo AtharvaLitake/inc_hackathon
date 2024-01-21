@@ -41,7 +41,7 @@ const Rules = () => {
             <span className="imp">
               From 21st Jan - 31st Jan , Registration Fee - &#8377; 400 /- <br />
               From 1st Feb - 8th Feb , Registration Fee - &#8377; 600 /- <br />
-              From 9st Feb - 15th Feb , Registration Fee - &#8377; 1000 /- <br />
+              From 9th Feb - 15th Feb , Registration Fee - &#8377; 1000 /- <br />
               International teams, before registration, please email <a href="mailto:litakeatharva24@gmail.com">litakeatharva24@gmail.com</a>
             </span>
           </li>
