@@ -58,7 +58,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                 Problems
+                 Problem Statements
               </NavLink>
             </li>
             <li className="nav-item">
