@@ -8,11 +8,6 @@ const Rules = () => {
         <h2>TEAM FORMATION</h2>
         <ul>
           <li>
-            All team members should be from same college; no inter-college teams
-            are allowed. However, members from different branches of the same
-            college/ institute are encouraged to form a team.
-          </li>
-          <li>
             Each team would mandatorily comprise of minimum 4 and maximum of 6
             members including the team leader.
           </li>
@@ -39,8 +34,7 @@ const Rules = () => {
           </li>
           <li>
             <span className="imp">
-              From 21st Jan - 31st Jan , Registration Fee - &#8377; 400 /- <br />
-              From 1st Feb - 8th Feb , Registration Fee - &#8377; 600 /- <br />
+              From 1st Feb - 8th Feb , Registration Fee - &#8377; 400 /- <br />
               From 9th Feb - 15th Feb , Registration Fee - &#8377; 1000 /- <br />
               International teams, before registration, please email <a href="mailto:litakeatharva24@gmail.com">litakeatharva24@gmail.com</a>
             </span>

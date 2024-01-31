@@ -76,7 +76,7 @@ const Register = () => {
     <>
       <div className="marquee">
         <h4>
-          REGISTRATION FEE - <b>&#8377; 400 /- </b>(Till 31st Jan)
+          REGISTRATION FEE - <b>&#8377; 400 /- </b>(Till 8th Feb)
         </h4>
       </div>
       <form onSubmit={handleSubmit}>
