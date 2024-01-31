@@ -93,7 +93,7 @@ const Rules = () => {
             TechFiesta PICT-Hackathon 2024’s pre-final rounds will be held
             online. The tentative date for these rounds will be 23 rd to 29 th
             Feb 2024. The final round will be held offline and will be held
-            between 15 th to 17 th March 2024.
+            between 23rd  to 25 th March 2024.
           </li>
         </ul>
       </div>

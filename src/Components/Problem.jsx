@@ -74,7 +74,7 @@ const problemStatements = [
   {
     id: 2003,
     title: "Mental Health Support",
-    desc: " Create a platform or app that provides accessible and effective mental health support, including real-time counseling, stress management tools, and mood tracking.  This should involve real-time monitoring of water sources, leakage detection, and community-level water usage analytics.",
+    desc: " Create a platform or app that provides accessible and effective mental health support, including real-time counseling, stress management tools, and mood tracking.",
     input:
       "Self-assessment surveys, mood tracking data, and user preferences. ",
     output:
