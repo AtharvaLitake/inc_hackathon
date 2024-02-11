@@ -34,7 +34,7 @@ const Home = () => {
             for hackathon is extended upto 15th Feb.
           </p>
           <Link to="/register" onClick={handleDialogToggle}>
-            Go to Next Page
+            Register Now 
           </Link>
           <button onClick={handleDialogToggle}>Close</button>
         </div>
