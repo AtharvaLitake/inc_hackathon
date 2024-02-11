@@ -33,10 +33,14 @@ const Home = () => {
             In the view of the requests from different colleges, registeration
             for hackathon is extended upto 15th Feb.
           </p>
-          <Link to="/register" onClick={handleDialogToggle}>
-            Register Now 
-          </Link>
-          <button onClick={handleDialogToggle}>Close</button>
+          <div className="link_to_next_page">
+            <button onClick={handleDialogToggle}>Close</button>
+            <button id="next_page">
+              <Link to="/register" onClick={handleDialogToggle}>
+                Register Now
+              </Link>
+            </button>
+          </div>
         </div>
       )}
       <div className="main_page">

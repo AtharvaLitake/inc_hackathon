@@ -92,22 +92,20 @@
 
 .dialog a {
   display: block;
-  text-align: right;
-  margin-top: 10px;
+  text-align: center;
   color: #001727;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .dialog p{
   color: #001727;
   font-size: 22px;
   font-weight: 400;
 }
-.dialog a:hover {
-  color:#ebe718;
-}
+
 .dialog button
 {
-  background-color: #ebe818;
+  color:#001727;
+  background-color:#ebe718;
   padding: 5px;
   font-size: 22px;
   font-weight: 600;
@@ -116,6 +114,16 @@
   width: 100px;
   height: 45px;
   transition: all 0.8 s ease;
+}
+.link_to_next_page
+{
+  display: flex;
+  justify-content: space-between;
+}
+#next_page
+{
+  color: #001727;
+  width: 150px;
 }
 /*DIALOG BOX ENDS HERE*/
 .marquee {
@@ -209,18 +217,14 @@
     font-size: 22px;
     color: #001727;
   }
-  
-  .dialog a {
-    display: block;
-    text-align: right;
-    margin-top: 10px;
-    color: #001727;
-    text-decoration: underline;
-  }
   .dialog p{
     color: #001727;
     font-size: 18px;
     font-weight: 400;
+  }
+  .dialog a
+  {
+    display: block;
   }
   .dialog button
   {
