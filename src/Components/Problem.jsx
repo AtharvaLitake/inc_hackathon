@@ -35,7 +35,7 @@ const problemStatements = [
   {
     id: 1004,
     title: "Traffic Management and Optimization",
-    desc: "Develop a solution to alleviate traffic congestion and improve traffic flow in urban areas. The solution should include real-time traffic monitoring, intelligent traffic light control, and dynamic rerouting based on congestion levels This should involve real-time monitoring of water sources, leakage detection, and community-level water usage analytics.",
+    desc: "Develop a solution to alleviate traffic congestion and improve traffic flow in urban areas. The solution should include real-time traffic monitoring, intelligent traffic light control, and dynamic rerouting based on congestion levels.",
     input:
       " Traffic data from sensors, GPS data from vehicles, historical traffic patterns.",
     output:
