@@ -26,9 +26,9 @@ const Home = () => {
       </div>
       {showDialog && (
         <div className="dialog">
-          <h1>Registeration Extended</h1>
+          <h1>Registration Extended</h1>
           <p>
-            In the view of the requests from different colleges, registeration
+            In the view of the requests from different colleges, registration
             for hackathon is extended upto 15th Feb.
           </p>
           <div className="link_to_next_page">
