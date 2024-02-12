@@ -153,6 +153,7 @@
   margin-bottom: 0px;
   display: inline-block;
   overflow: hidden;
+  animation: marqueeAnimation 18s linear infinite;
 }
 
 /*RESPONSIVENESS*/
