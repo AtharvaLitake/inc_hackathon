@@ -3,6 +3,7 @@ import "../Styling/Home.css";
 import logo_hack from "../Assets/logo.png";
 import pict_logo from "../Assets/pict_logo.png";
 import Register_extended from "../Assets/Registration_extended.png";
+import TechFiestaTemplate from '../Assets/TechFiesta_Template.pptx';
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -14,10 +15,10 @@ const Home = () => {
 
   return (
     <>
-      <div className="marquee">
-        <h4>
-          REGISTRATION FEE - <b>&#8377; 400 /- </b>(Till 15th Feb)
-        </h4>
+      <div className="marquee" id="ppt_download">
+        <a href={TechFiestaTemplate} download>
+          Download Idea submission ppt template -- Click here
+        </a>
       </div>
       <div className="Registeration_extension" onClick={handleDialogToggle}>
         <div className="extended">
