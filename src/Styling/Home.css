@@ -59,16 +59,13 @@
   margin-right: 20px;
   margin-left: calc(95% - 20px - 200px);
   position: absolute;
-  padding: 20px;
-  border: 2px solid #ebe718;
-  animation: glows 2s infinite;
 }
-.extended h2
+.extended img
 {
-  font-weight: 500;
-  font-size: 28px;
-  text-decoration: underline;
-  line-height: 38px;
+  margin-top: 0px;
+  width: 80%;
+  cursor: pointer;
+  animation: expandAndContract 3s infinite;
 }
 /* Home.css */
 
@@ -204,13 +201,8 @@
     font-size: 12px;
   }
   .Registeration_extension {
-    padding: 5px;
     margin-right: 5px;
     margin-left: calc(100% - 5px - 180px);
-  }
-  .extended h2
-  {
-    font-size: 22px;
   }
   .dialog h1 {
     margin-top: 0;
@@ -231,6 +223,10 @@
     font-size: 18px;
     width: 80px;
     height: 35px;
+  }
+  .extended img
+  {
+    width:100%
   }
 }
 
@@ -261,19 +257,29 @@
     margin-bottom: 0px;
   }
   .Registeration_extension {
-    padding: 5px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-right: 5px;
-    margin-left: calc(100% - 5px - 100px);
+    margin-left: calc(100% - 5px - 120px);
   }
-  .extended h2
+  .extended img
   {
-    line-height: 24px;
-    font-size: 16px;
+    width:90%
   }
 }
 
 /*ANIMATIONS*/
+@keyframes expandAndContract {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 @keyframes glow {
   0% {
     text-shadow: 0 0 1vh rgba(235, 232, 24, 0.668);

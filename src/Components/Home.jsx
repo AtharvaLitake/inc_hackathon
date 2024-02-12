@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../Styling/Home.css";
 import logo_hack from "../Assets/logo.png";
 import pict_logo from "../Assets/pict_logo.png";
+import Register_extended from "../Assets/Registration_extended.png";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -20,10 +21,7 @@ const Home = () => {
       </div>
       <div className="Registeration_extension" onClick={handleDialogToggle}>
         <div className="extended">
-          <h2>
-            Registration <br />
-            Extended
-          </h2>
+          <img src={Register_extended} alt="" />
         </div>
       </div>
       {showDialog && (
