@@ -5,6 +5,18 @@ const Rules = () => {
     <div className="rules">
       <h1>GUIDELINES</h1>
       <div className="rule">
+        <h2>EVALUATION CRITERIA</h2>
+        <ul>
+          <li>Novelty of the idea to address the problem</li>
+          <li>Approach to Explore Idea</li>
+          <li>Feasibility & Complexity</li>
+          <li>
+            Approach towards implementing the System and Future Use cases
+          </li>
+          <li>Clarity & details in the presentation as a team and Q & A</li>
+        </ul>
+      </div>
+      <div className="rule">
         <h2>TEAM FORMATION</h2>
         <ul>
           <li>
@@ -29,12 +41,16 @@ const Rules = () => {
           </li>
           <li>
             <span className="imp">
-              Registration Fee for the event is <b>&#8377; 400 /- (Till 15th Feb)</b>
+              Registration Fee for the event is{" "}
+              <b>&#8377; 400 /- (Till 15th Feb)</b>
             </span>
           </li>
           <li>
             <span className="imp">
-              International teams, before registration, please email <a href="mailto:litakeatharva24@gmail.com">litakeatharva24@gmail.com</a>
+              International teams, before registration, please email{" "}
+              <a href="mailto:litakeatharva24@gmail.com">
+                litakeatharva24@gmail.com
+              </a>
             </span>
           </li>
           <li>
@@ -91,7 +107,7 @@ const Rules = () => {
             TechFiesta PICT-Hackathon 2024’s pre-final rounds will be held
             online. The tentative date for these rounds will be 23 rd to 29 th
             Feb 2024. The final round will be held offline and will be held
-            between 23rd  to 25 th March 2024.
+            between 23rd to 25 th March 2024.
           </li>
         </ul>
       </div>
