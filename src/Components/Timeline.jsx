@@ -3,7 +3,7 @@ import "../Styling/Timeline.css";
 
 const timelineData = [
   {
-    date: "Till 15th Feb 2024",
+    date: "Till 18th Feb 2024",
     title: "Problem Statement Submission",
     content:
       "Team Leader's are expected to submit their idea on portal in form of ppt",
