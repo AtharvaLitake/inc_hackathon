@@ -82,7 +82,7 @@ const Rules = () => {
           <li>
             <span className="imp">
               The last date for team nomination and idea submission by team
-              leader on portal is till 15/02/2024 only. No request will be
+              leader on portal is till 19/02/2024 only. No request will be
               entertained after the deadline.
             </span>
           </li>
