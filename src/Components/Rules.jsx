@@ -72,7 +72,7 @@ const Rules = () => {
         <h2>IDEA NOMINATION PROCESS</h2>
         <ul>
           <li>
-            Idea submission form will start from 15/01/2024 and only 100 teams
+            Idea submission form will start from 19/01/2024 and only 100 teams
             will be shortlisted for further rounds.
           </li>
           <li>
