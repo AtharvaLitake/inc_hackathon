@@ -26,7 +26,7 @@ const Home = () => {
         </div>
       </div>
       {showDialog && (
-        <div className="dialog">
+        <div className="dialog_home">
           <h1>Registration Extended</h1>
           <span className="close" onClick={handleDialogToggle}>
               &times;

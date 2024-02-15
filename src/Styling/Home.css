@@ -68,12 +68,12 @@
 }
 /* Home.css */
 
-.dialog {
+.dialog_home {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #001727;
+  background-color: #fcfcfc;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -83,25 +83,25 @@
   height: 350px;
 }
 
-.dialog h1 {
+.dialog_home  h1 {
   margin-top: 0;
   color: #001727;
   font-size: 22px;
 }
 
-.dialog a {
+.dialog_home  a {
   display: block;
   text-align: center;
   color: #001727;
   text-decoration: none;
 }
-.dialog p {
+.dialog_home p {
   color: #001727;
   font-size: 18px;
   font-weight: 400;
 }
 
-.dialog button {
+.dialog_home  button {
   color: #001727;
   background-color: #ebe718;
   padding: 5px;
@@ -216,19 +216,19 @@
     margin-right: 5px;
     margin-left: calc(100% - 5px - 180px);
   }
-  .dialog {
+  .dialog_home  {
     width: 70%;
   }
   .extended img {
     width: 100%;
   }
-  .dialog button {
+  .dialog_home  button {
     font-size: 16px;
     width: 80px;
   }
 }
 @media (max-width: 768px) {
-  .dialog {
+  .dialog_home  {
     font-size: 12px !important;
     max-width: 90% !important;
     width: 90% !important;
