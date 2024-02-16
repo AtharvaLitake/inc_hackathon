@@ -50,7 +50,7 @@ const Register = () => {
         mobile: Number(data.mobile),
         utr: data.utr,
       };
-      const response = await fetch("https://apitechfiesta.pict.edu/form", {
+      const response = await fetch("https://apitechfiesta2.pict.edu/form", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
