@@ -32,7 +32,7 @@ const Home = () => {
               &times;
           </span>
           <p>
-            In the view of the requests from different colleges regarding idea
+            In view of the requests from various colleges regarding idea
             submission, registration & idea submission for hackathon is extended
             upto 19th Feb.
           </p>
