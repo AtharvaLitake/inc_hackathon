@@ -36,10 +36,9 @@ const Home = () => {
       </div>
       {showDialog && (
         <div className="dialog_home">
-          <h1>Registered but not verified ?</h1>
+          <h1>Registered but not verified?</h1>
           <p>
-            If you have registered on the website, but still havent received payment confirmation , please mail to 
-            <a href="mailto:litakeatharva24@gmail.com">litakeatharva24@gmail.com</a>
+            If you have registered on the website, but still havent received payment confirmation , please mail to <a href="mailto:litakeatharva24@gmail.com">litakeatharva24@gmail.com</a>
           </p>
           <hr />
           <h1>Registration Extended</h1>
