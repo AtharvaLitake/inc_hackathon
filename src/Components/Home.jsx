@@ -3,14 +3,18 @@ import "../Styling/Home.css";
 import logo_hack from "../Assets/logo.png";
 import pict_logo from "../Assets/pict_logo.png";
 import Register_extended from "../Assets/Registration_extended.png";
+import round1 from "../Assets/techfiesta-removebg-preview.png";
 import TechFiestaTemplate from "../Assets/TechFiesta_Template.pptx";
 import { Link } from "react-router-dom";
 
 const Home = () => {
   const [showDialog, setShowDialog] = useState(false);
-
+  const [showDialog1, setShowDialog1] = useState(false);
   const handleDialogToggle = () => {
     setShowDialog(!showDialog);
+  };
+  const handleDialogToggle1 = () => {
+    setShowDialog1(!showDialog1);
   };
 
   return (
@@ -25,11 +29,16 @@ const Home = () => {
           <img src={Register_extended} alt="" />
         </div>
       </div>
+      <div className="Registeration_extension_1" onClick={handleDialogToggle1}>
+        <div className="extended">
+          <img src={round1} alt="" />
+        </div>
+      </div>
       {showDialog && (
         <div className="dialog_home">
           <h1>Registration Extended</h1>
           <span className="close" onClick={handleDialogToggle}>
-              &times;
+            &times;
           </span>
           <p>
             In view of the requests from various colleges regarding idea
@@ -54,6 +63,24 @@ const Home = () => {
               <Link to="/instructions" onClick={handleDialogToggle}>
                 Details
               </Link>
+            </button>
+          </div>
+        </div>
+      )}
+      {showDialog1 && (
+        <div className="dialog_home_1">
+          <h1>Idea Submission</h1>
+          <span className="close" onClick={handleDialogToggle1}>
+            &times;
+          </span>
+          <p>
+            Last date for Idea Submission is till 19th Feb. Please submit your idea at the earliest.
+            Template for Idea submission is given on the website.Please download it and follow to instructions mentioned.
+            For ppt template click below -
+          </p>
+          <div className="link_to_next_page">
+            <button id="next_page">
+              <a href={TechFiestaTemplate} download>TEMPLATE</a>
             </button>
           </div>
         </div>

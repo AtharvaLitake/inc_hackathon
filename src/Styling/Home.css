@@ -60,12 +60,23 @@
   margin-left: calc(95% - 20px - 200px);
   position: absolute;
 }
+.Registeration_extension_1 {
+  display: grid;
+  text-align: center;
+  justify-items: right;
+  justify-content: right;
+  color: white;
+  margin-right: 20px;
+  margin-right: calc(95% - 20px - 200px);
+  position: absolute;
+}
 .extended img {
   margin-top: 0px;
-  width: 80%;
+  width: 70%;
   cursor: pointer;
   animation: expandAndContract 3s infinite;
 }
+
 /* Home.css */
 
 .dialog_home {
@@ -122,6 +133,51 @@
   width: 150px;
 }
 /*DIALOG BOX ENDS HERE*/
+/*second dialog*/
+.dialog_home_1 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fcfcfc;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  width: 70%;
+  height: auto;
+}
+
+.dialog_home_1  h1 {
+  margin-top: 0;
+  color: #001727;
+  font-size: 22px;
+}
+
+.dialog_home_1  a {
+  display: block;
+  text-align: center;
+  color: #001727;
+  text-decoration: none;
+}
+.dialog_home_1 p {
+  color: #001727;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.dialog_home_1  button {
+  color: #001727;
+  background-color: #ebe718;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  width: 100px;
+  height: 45px;
+  transition: all 0.8 s ease;
+}
 .marquee {
   display: grid;
   align-items: center;
@@ -226,9 +282,25 @@
     font-size: 16px;
     width: 80px;
   }
+  .Registeration_extension_1 {
+    margin-right: 5px;
+    margin-right: calc(100% - 5px - 180px);
+  }
+  .dialog_home_1  {
+    width: 70%;
+  }
+  .dialog_home_1  button {
+    font-size: 16px;
+    width: 80px;
+  }
 }
 @media (max-width: 768px) {
   .dialog_home  {
+    font-size: 12px !important;
+    max-width: 90% !important;
+    width: 90% !important;
+  }
+  .dialog_home_1  {
     font-size: 12px !important;
     max-width: 90% !important;
     width: 90% !important;
@@ -268,6 +340,14 @@
     width: 90%;
   }
   .dialog {
+    width: 70%;
+  }
+  .Registeration_extension_1 {
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-right: calc(100% - 5px - 120px);
+  }
+  .dialog_1 {
     width: 70%;
   }
 }
