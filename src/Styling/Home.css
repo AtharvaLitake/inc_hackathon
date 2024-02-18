@@ -91,7 +91,7 @@
   z-index: 1000;
   width: 70%;
   overflow-y: scroll;
-  height: 350px;
+  height: 320px;
 }
 
 .dialog_home  h1 {
@@ -102,7 +102,6 @@
 
 .dialog_home  a {
   display: block;
-  text-align: center;
   color: #001727;
   text-decoration: none;
 }

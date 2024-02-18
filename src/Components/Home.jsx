@@ -36,6 +36,12 @@ const Home = () => {
       </div>
       {showDialog && (
         <div className="dialog_home">
+          <h1>Registered but not verified ?</h1>
+          <p>
+            If you have registered on the website, but still havent received payment confirmation , please mail to 
+            <a href="mailto:litakeatharva24@gmail.com">litakeatharva24@gmail.com</a>
+          </p>
+          <hr />
           <h1>Registration Extended</h1>
           <span className="close" onClick={handleDialogToggle}>
             &times;
@@ -74,13 +80,16 @@ const Home = () => {
             &times;
           </span>
           <p>
-            Last date for Idea Submission is till 19th Feb. Please submit your idea at the earliest.
-            Template for Idea submission is given on the website.Please download it and follow to instructions mentioned.
-            For ppt template click below -
+            Last date for Idea Submission is till 19th Feb. Please submit your
+            idea at the earliest. Template for Idea submission is given on the
+            website.Please download it and follow to instructions mentioned. For
+            ppt template click below -
           </p>
           <div className="link_to_next_page">
             <button id="next_page">
-              <a href={TechFiestaTemplate} download>TEMPLATE</a>
+              <a href={TechFiestaTemplate} download>
+                TEMPLATE
+              </a>
             </button>
           </div>
         </div>
