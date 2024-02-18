@@ -81,7 +81,7 @@ const Home = () => {
           </span>
           <p>
             Last date for Idea Submission is till 19th Feb. Please submit your
-            idea at the earliest. Template for Idea submission is given on the
+            idea at earliest. Template for Idea submission is given on the
             website.Please download it and follow to instructions mentioned. For
             ppt template click below -
           </p>
