@@ -336,14 +336,13 @@
     margin-left: calc(100% - 5px - 120px);
   }
   .extended img {
-    width: 90%;
+    width: 75%;
   }
   .dialog {
     width: 70%;
   }
   .Registeration_extension_1 {
     margin-top: 20px;
-    margin-right: 5px;
     margin-right: calc(100% - 5px - 120px);
   }
   .dialog_1 {
