@@ -101,7 +101,7 @@
 }
 
 .dialog_home  a {
-  display: block;
+  display: inline;
   color: #001727;
   text-decoration: none;
 }
