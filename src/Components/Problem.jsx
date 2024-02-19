@@ -59,7 +59,7 @@ const problemStatements = [
       " Patient health records, treatment plans, and historical adherence data. ",
     output:
       "A mobile application that sends personalized reminders, tracks medication adherence, and provides insights to healthcare providers on patient engagement. ",
-    category: "Health & Care",
+    category: "Healthcare",
   },
   {
     id: 2002,
@@ -69,7 +69,7 @@ const problemStatements = [
       "Vital signs data (e.g., heart rate, blood pressure) from wearable devices.",
     output:
       "A dashboard for healthcare providers displaying real-time patient data, alerting for abnormal readings, and facilitating timely interventions.",
-    category: "Health & Care",
+    category: "Healthcare",
   },
   {
     id: 2003,
@@ -79,7 +79,7 @@ const problemStatements = [
       "Self-assessment surveys, mood tracking data, and user preferences. ",
     output:
       "A virtual therapy platform offering personalized mental health resources, coping strategies, and connection to professional support when needed",
-    category: "Health & Care",
+    category: "Healthcare",
   },
   {
     id: 2004,
@@ -89,7 +89,7 @@ const problemStatements = [
       "Propose a solution to enhance healthcare access for underserved communities, considering factors such as transportation, language barriers, and cultural sensitivity.",
     output:
       "A telemedicine platform customized for underserved areas, with features for virtual consultations, health education, and community health monitoring. ",
-    category: "Health & Care",
+    category: "Healthcare",
   },
   {
     id: 2005,
@@ -99,7 +99,7 @@ const problemStatements = [
       "Existing healthcare IT infrastructure, cybersecurity protocols, and potential vulnerabilities. ",
     output:
       " Enhanced data security measures, encryption protocols, and monitoring systems to safeguard patient information against cyber threats.",
-    category: "Health & Care",
+    category: "Healthcare",
   },
   {
     id: 3001,

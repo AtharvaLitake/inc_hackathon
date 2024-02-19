@@ -7,7 +7,7 @@ import '../Styling/Themes.css';
 
 const themeData = [
     { id: 1, name: 'Smart Cities / Villages', image: domain1 },
-    { id: 2, name: 'Health and Care', image: domain2 },
+    { id: 2, name: 'Healthcare', image: domain2 },
     { id: 3, name: 'Education Technology', image: domain3 },
     { id: 4, name: 'Agriculture', image: domain4 },
 ];
