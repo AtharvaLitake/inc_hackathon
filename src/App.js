@@ -23,6 +23,7 @@ function App() {
         <Route path="/problem" element={<Problem></Problem>}></Route>
         <Route path="/guidelines" element={<Guidelines></Guidelines>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
+        <Route path="/close" element={<Register_Coming></Register_Coming>}></Route>
         <Route path="/timeline" element={<Timeline></Timeline>}></Route>
         <Route path="/instructions" element={<Meet_instructions></Meet_instructions>}></Route>
         <Route path="/thankyoufrompict_techfiesta" element={<Submit />}></Route>

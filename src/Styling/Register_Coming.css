@@ -19,7 +19,7 @@
   background-color: #ebe718;
   animation: divglow 2s infinite;
 }
-@keyframes  divglow {
+@keyframes divglow {
   0% {
     box-shadow: 0 0 1vh rgba(235, 232, 24, 0.668);
   }
@@ -45,17 +45,26 @@
   .coming_content {
     width: 80%;
   }
-  .coming_soon h1{
+  .coming_soon h1 {
     font-size: 6.5vh;
   }
 }
 @media screen and (max-width: 800px) {
-  .coming_soon h1{
+  .coming_soon h1 {
     font-size: 4.8vh;
   }
 }
 @media screen and (max-width: 650px) {
-    .coming_soon i{
-      font-size: 5vh;
-    }
+  #comingh1 {
+    font-size: 4.5vh;
   }
+  .coming_content h3
+  {
+    font-size: 2.5vh;
+  }
+}
+@media screen and (max-width: 350px) {
+  #comingh1 {
+    font-size: 3.5vh;
+  }
+}

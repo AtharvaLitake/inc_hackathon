@@ -4,8 +4,8 @@ const RegisterComing = () => {
   return (
     <div className="coming_soon">
       <div className="coming_content">
-        <i class="fa-regular fa-clock"></i>
-        <h1>Registrations Opening on 15th Jan 24</h1>
+        <h1 id="comingh1">Registrations Closed</h1>
+        <h3>Sorry, but registrations for the event are closed !</h3>
       </div>
     </div>
   );
