@@ -29,11 +29,11 @@ const Home = () => {
           <img src={Register_extended} alt="" />
         </div>
       </div>
-      <div className="Registeration_extension_1" onClick={handleDialogToggle1}>
+      {/* <div className="Registeration_extension_1" onClick={handleDialogToggle1}>
         <div className="extended">
           <img src={round1} alt="" />
         </div>
-      </div>
+      </div> */}
       {showDialog && (
         <div className="dialog_home">
           <h1>Schedule for Round-1 </h1>
@@ -81,7 +81,7 @@ const Home = () => {
           </div>
         </div>
       )}
-      {showDialog1 && (
+      {/* {showDialog1 && (
         <div className="dialog_home_1">
           <h1>Idea Submission</h1>
           <span className="close" onClick={handleDialogToggle1}>
@@ -101,7 +101,7 @@ const Home = () => {
             </button>
           </div>
         </div>
-      )}
+      )} */}
       <div className="main_page">
         <div className="content-home">
           <div className="home_content">
