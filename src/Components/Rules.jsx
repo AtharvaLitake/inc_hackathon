@@ -14,6 +14,12 @@ const Rules = () => {
             Approach towards implementing the System and Future Use cases
           </li>
           <li>Clarity & details in the presentation as a team and Q & A</li>
+          <li><span className="imp">
+            Time constraint for online presentation - 10 min presentation + 5 min QnA <br />
+            Total of 15 min for each team
+          </span>
+          </li>
+          
         </ul>
       </div>
       <div className="rule">
