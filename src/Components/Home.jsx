@@ -29,16 +29,23 @@ const Home = () => {
           <img src={Register_extended} alt="" />
         </div>
       </div>
-      {/* <div className="Registeration_extension_1" onClick={handleDialogToggle1}>
-        <div className="extended">
-          <img src={round1} alt="" />
+      {
+        <div
+          className="Registeration_extension_1"
+          onClick={handleDialogToggle1}
+        >
+          <div className="extended">
+            <img src={round1} alt="" />
+          </div>
         </div>
-      </div> */}
+      }
+
       {showDialog && (
         <div className="dialog_home">
           <h1>Schedule for Round-1 </h1>
           <p>
-            Time slots for online presentation round for each team will be shared soon on respective whatsapp group.
+            Time slots for online presentation round for each team will be
+            shared soon on respective whatsapp group.
           </p>
           <hr />
           <h1>Registered but not verified?</h1>
@@ -81,27 +88,43 @@ const Home = () => {
           </div>
         </div>
       )}
-      {/* {showDialog1 && (
+      {showDialog1 && (
         <div className="dialog_home_1">
-          <h1>Idea Submission</h1>
+          <h1>Round-1 Schedule</h1>
           <span className="close" onClick={handleDialogToggle1}>
             &times;
           </span>
-          <p>
-            Last date for Idea Submission is till 19th Feb. Please submit your
-            idea at earliest. Template for Idea submission is given on the
-            website.Please download it and follow to instructions mentioned. For
-            ppt template click below -
-          </p>
-          <div className="link_to_next_page">
-            <button id="next_page">
-              <a href={TechFiestaTemplate} download>
-                TEMPLATE
+          <p>Click on your domain to get respective schedule -</p>
+          <div className="link_to_next_page_1">
+            <button id="next_page_1">
+              <a href='/TechFiesta Smart Cities Villages.pdf' download>
+                Smart Cities / Villages
               </a>
             </button>
+            <br />
+            <button id="next_page_1">
+              <a href='/TechFiesta HealthCare.pdf' download>
+                HealthCare
+              </a>
+            </button>
+            <br />
+          </div>
+          <div className="link_to_next_page_1">
+            <button id="next_page_1">
+              <a href='/TechFiesta Education & Technology.pdf' download>
+                Education
+              </a>
+            </button>
+            <br />
+            <button id="next_page_1">
+              <a href='/TechFiesta Agriculture.pdf' download>
+                Agriculture
+              </a>
+            </button>
+            <br />
           </div>
         </div>
-      )} */}
+      )}
       <div className="main_page">
         <div className="content-home">
           <div className="home_content">

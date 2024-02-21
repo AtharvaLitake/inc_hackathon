@@ -86,10 +86,9 @@
   transform: translate(-50%, -50%);
   background-color: #fcfcfc;
   padding: 20px;
-  border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   z-index: 1000;
-  width: 70%;
+  width: 45%;
   overflow-y: scroll;
   height: 320px;
 }
@@ -122,14 +121,17 @@
   width: 100px;
   height: 45px;
   transition: all 0.8 s ease;
+  box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.307);
 }
 .link_to_next_page {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
 }
+
 #next_page {
   color: #001727;
-  width: 150px;
+  width: 190px;
+  margin-bottom: 10px;
 }
 /*DIALOG BOX ENDS HERE*/
 /*second dialog*/
@@ -143,7 +145,7 @@
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   z-index: 1000;
-  width: 70%;
+  width: 45%;
   height: auto;
 }
 
@@ -166,7 +168,7 @@
 }
 
 .dialog_home_1  button {
-  color: #001727;
+  color: #ebe718;
   background-color: #ebe718;
   padding: 5px;
   font-size: 18px;
@@ -176,6 +178,17 @@
   width: 100px;
   height: 45px;
   transition: all 0.8 s ease;
+  box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.307);
+}
+
+.link_to_next_page_1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+#next_page_1 {
+  width: 200px;
+  margin-bottom: 10px;
 }
 .marquee {
   display: grid;
@@ -208,6 +221,11 @@
   overflow: hidden;
   animation: marqueeAnimation 18s linear infinite;
 }
+.dialog_home_1 button:hover{
+  cursor: pointer;
+  background-color: #f0d000;
+  transition: all ease 0.3s;
+}
 
 /*RESPONSIVENESS*/
 
@@ -237,6 +255,14 @@
   .content-home img {
     margin-top: 0px;
     margin-bottom: 0px;
+  }
+  #next_page_1 {
+    width: 200px;
+    font-size: 16px;
+  }
+  .dialog_home_1  button {
+    font-size: 16px;
+    width: 80px;
   }
 }
 
@@ -347,6 +373,25 @@
   }
   .dialog_1 {
     width: 70%;
+  }
+  #next_page_1 {
+    width: 150px;
+    font-size: 12px;
+  }
+  .dialog_home_1  button {
+    font-size: 16px;
+    width: 80px;
+  }
+}
+@media (max-width: 400px)
+{
+  #next_page_1 {
+    width: 110px;
+    font-size: 12px;
+  }
+  .dialog_home_1  button {
+    font-size: 16px;
+    width: 80px;
   }
 }
 
