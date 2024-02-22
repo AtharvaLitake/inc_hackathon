@@ -60,6 +60,22 @@
   margin-left: calc(95% - 20px - 200px);
   position: absolute;
 }
+.Registeration_extension_2 {
+  display: grid;
+  text-align: center;
+  justify-items: right;
+  justify-content: right;
+  color: white;
+  margin-top: 130px;
+  margin-right: 20px;
+  margin-left: calc(95% - 0px - 200px);
+  position: absolute;
+  border-radius: 8px;
+  box-shadow: #ebe718 0 0 15px 2px;
+  padding: 10px;
+  margin-bottom: 0px;
+  width: 240px;
+}
 .Registeration_extension_1 {
   display: grid;
   text-align: center;
@@ -76,6 +92,11 @@
   cursor: pointer;
   animation: expandAndContract 3s infinite;
 }
+.extended_2 p{
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
 
 /* Home.css */
 
@@ -263,6 +284,22 @@
   .dialog_home_1  button {
     font-size: 16px;
     width: 80px;
+  }
+  .Registeration_extension_2 {
+    display: grid;
+    text-align: center;
+    justify-items: right;
+    justify-content: right;
+    color: white;
+    margin-top: 330px;
+    margin-right: 20px;
+    margin-left: calc(95% - 0px - 200px);
+    position: absolute;
+    border-radius: 8px;
+    box-shadow: #ebe718 0 0 15px 2px;
+    padding: 10px;
+    margin-bottom: 0px;
+    width: 240px;
   }
 }
 

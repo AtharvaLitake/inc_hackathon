@@ -42,20 +42,19 @@ const Home = () => {
 
       {showDialog && (
         <div className="dialog_home">
-          <h1>Schedule for Round-1 </h1>
+          <h1>Regarding Idea Submission</h1>
           <p>
-            Time slots for online presentation round for each team will be
-            shared soon on respective whatsapp group.
+            Those who have paid the fees, but have not complteted gfrom / Not
+            received a mail, please click on link below -
           </p>
-          <hr />
-          <h1>Registered but not verified?</h1>
-          <p>
-            If you have registered on the website, but still havent received
-            payment confirmation , please mail to{" "}
-            <a href="mailto:litakeatharva24@gmail.com">
-              litakeatharva24@gmail.com
-            </a>
-          </p>
+          <div className="link_to_next_page">
+            <button id="next_page">
+              <a href="https://forms.gle/AJWgP4aKcwqXgZKi8">
+                Google Form
+              </a>
+            </button>
+          </div>
+
           <hr />
           <h1>Registration Extended</h1>
           <span className="close" onClick={handleDialogToggle}>
@@ -97,13 +96,13 @@ const Home = () => {
           <p>Click on your domain to get respective schedule -</p>
           <div className="link_to_next_page_1">
             <button id="next_page_1">
-              <a href='/TechFiesta Smart Cities Villages.pdf' download>
+              <a href="/TechFiesta Smart Cities Villages.pdf" download>
                 Smart Cities / Villages
               </a>
             </button>
             <br />
             <button id="next_page_1">
-              <a href='/TechFiesta HealthCare.pdf' download>
+              <a href="/TechFiesta HealthCare.pdf" download>
                 HealthCare
               </a>
             </button>
@@ -111,13 +110,13 @@ const Home = () => {
           </div>
           <div className="link_to_next_page_1">
             <button id="next_page_1">
-              <a href='/TechFiesta Education & Technology.pdf' download>
+              <a href="/TechFiesta Education & Technology.pdf" download>
                 Education
               </a>
             </button>
             <br />
             <button id="next_page_1">
-              <a href='/TechFiesta Agriculture.pdf' download>
+              <a href="/TechFiesta Agriculture.pdf" download>
                 Agriculture
               </a>
             </button>
