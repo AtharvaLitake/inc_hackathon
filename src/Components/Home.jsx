@@ -44,8 +44,8 @@ const Home = () => {
         <div className="dialog_home">
           <h1>Regarding Idea Submission</h1>
           <p>
-            Those who have paid the fees, but have not complteted gfrom / Not
-            received a mail, please click on link below -
+            Those who have paid the fees, but have not completed g-form / Not
+            received a mail, please click on the link below -
           </p>
           <div className="link_to_next_page">
             <button id="next_page">
