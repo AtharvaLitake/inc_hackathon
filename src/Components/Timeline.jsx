@@ -18,7 +18,7 @@ const timelineData = [
     date: "23rd March - 25th March 2024",
     title: "Grand Finale",
     content:
-      "All shortlisted teams will then compete in Grande Finale to win amazing prizes",
+      "All shortlisted teams will then compete in Grand Finale to win amazing prizes",
   },
 ];
 
