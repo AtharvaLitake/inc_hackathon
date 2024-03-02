@@ -88,7 +88,7 @@ const Home = () => {
       )}
       {showDialog1 && (
         <div className="dialog_home_1">
-          <h1>Grand Finalist</h1>
+          <h1>Grand Finalists & Waiting Teams</h1>
           <span className="close" onClick={handleDialogToggle1}>
             &times;
           </span>
