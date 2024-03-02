@@ -5,6 +5,7 @@ import pict_logo from "../Assets/pict_logo.png";
 import Register_extended from "../Assets/Registration_extended.png";
 import round1 from "../Assets/techfiesta-removebg-preview.png";
 import TechFiestaTemplate from "../Assets/TechFiesta_Template.pptx";
+import Results from '../Assets/Results.png'
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -35,7 +36,7 @@ const Home = () => {
           onClick={handleDialogToggle1}
         >
           <div className="extended">
-            <img src={round1} alt="" />
+            <img src={Results} alt="" />
           </div>
         </div>
       }
@@ -89,35 +90,21 @@ const Home = () => {
       )}
       {showDialog1 && (
         <div className="dialog_home_1">
-          <h1>Round-1 Schedule</h1>
+          <h1>Grand Finalist</h1>
           <span className="close" onClick={handleDialogToggle1}>
             &times;
           </span>
-          <p>Click on your domain to get respective schedule -</p>
+          <p>Check out the most awaited results here-</p>
           <div className="link_to_next_page_1">
             <button id="next_page_1">
-              <a href="/TechFiesta Smart Cities Villages.pdf" download>
-                Smart Cities / Villages
+              <a href="/Finalist.pdf" download>
+                Finalists
               </a>
             </button>
             <br />
             <button id="next_page_1">
-              <a href="/TechFiesta HealthCare.pdf" download>
-                HealthCare
-              </a>
-            </button>
-            <br />
-          </div>
-          <div className="link_to_next_page_1">
-            <button id="next_page_1">
-              <a href="/TechFiesta Education & Technology.pdf" download>
-                Education
-              </a>
-            </button>
-            <br />
-            <button id="next_page_1">
-              <a href="/TechFiesta Agriculture.pdf" download>
-                Agriculture
+              <a href="/Waiting.pdf" download>
+                Waiting list
               </a>
             </button>
             <br />
