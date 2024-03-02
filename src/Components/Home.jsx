@@ -21,9 +21,7 @@ const Home = () => {
   return (
     <>
       <div className="marquee" id="ppt_download">
-        <a href={TechFiestaTemplate} download>
-          Download Idea submission ppt template -- Click here
-        </a>
+        <p>Congratulations to all Qualified & waiting Teams</p>
       </div>
       <div className="Registeration_extension" onClick={handleDialogToggle}>
         <div className="extended">
