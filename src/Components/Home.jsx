@@ -5,7 +5,7 @@ import pict_logo from "../Assets/pict_logo.png";
 import Register_extended from "../Assets/Registration_extended.png";
 import round1 from "../Assets/techfiesta-removebg-preview.png";
 import TechFiestaTemplate from "../Assets/TechFiesta_Template.pptx";
-import Results from '../Assets/Results.png'
+import Results from "../Assets/Results.png";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -21,7 +21,7 @@ const Home = () => {
   return (
     <>
       <div className="marquee" id="ppt_download">
-        <p>Congratulations to all Qualified & waiting Teams</p>
+        <p>Check Latest Updates section for Grand Finale Schedule</p>
       </div>
       <div className="Registeration_extension" onClick={handleDialogToggle}>
         <div className="extended">
@@ -41,6 +41,12 @@ const Home = () => {
 
       {showDialog && (
         <div className="dialog_home">
+          <h1>Grand Finale Schedule</h1>
+          <p>
+            The most awaited and thrilling finale of Techfiesta will be
+            conducted in offline mode at the PICT Campus on 29th and 30th March.
+          </p>
+          <hr />
           <h1>Regarding Idea Submission</h1>
           <p>
             Those who have paid the fees, but have not completed g-form / Not
@@ -48,9 +54,7 @@ const Home = () => {
           </p>
           <div className="link_to_next_page">
             <button id="next_page">
-              <a href="https://forms.gle/AJWgP4aKcwqXgZKi8">
-                Google Form
-              </a>
+              <a href="https://forms.gle/AJWgP4aKcwqXgZKi8">Google Form</a>
             </button>
           </div>
 
