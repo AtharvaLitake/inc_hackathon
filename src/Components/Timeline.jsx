@@ -15,7 +15,7 @@ const timelineData = [
       "Online presentation round will be conducted during this span of time",
   },
   {
-    date: "23rd March - 25th March 2024",
+    date: "29th March - 30th March 2024",
     title: "Grand Finale",
     content:
       "All shortlisted teams will then compete in Grand Finale to win amazing prizes",
