@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../Styling/Home.css";
 import logo_hack from "../Assets/logo.png";
+import logo_budhani from "../Assets/budhani.jpg";
 import pict_logo from "../Assets/pict_logo.png";
 import Register_extended from "../Assets/Registration_extended.png";
 import round1 from "../Assets/techfiesta-removebg-preview.png";
@@ -126,6 +127,8 @@ const Home = () => {
         </div>
         <h1>TECHFIESTA - AN INTERNATIONAL HACKATHON</h1>
         <img src={logo_hack} alt="logo_of hackathon" />
+        <h1 style={{marginTop:'40px'}}>BEVERAGE SPONSOR</h1>
+        <img src={logo_budhani} style={{margin:'40px'}} width={400} alt="logo_of hackathon" />
       </div>
     </>
   );
