@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <>
       <div className="marquee" id="ppt_download">
-        <p>Congratulations to all Winners of Techfiesta 24</p>
+        <p>Congratulations to all Winners of TechFiesta'24</p>
       </div>
       <div className="Registeration_extension" onClick={handleDialogToggle}>
         <div className="extended">
@@ -93,11 +93,11 @@ const Home = () => {
       )}
       {showDialog1 && (
         <div className="dialog_home_1">
-          <h1>Winners of Techfiesta</h1>
+          <h1>Winners of TechFiesta</h1>
           <span className="close" onClick={handleDialogToggle1}>
             &times;
           </span>
-          <p>Congratulations to all the Winners and participants who showed enthusiasm throughout the TechFiesta-Grand Finale -</p>
+          <p>Congratulations to all the Winners and participants who showed enthusiasm throughout the TechFiesta-Grand Finale</p>
           <div className="link_to_next_page">
             <button id="next_page">
               <Link to='/winner'>
