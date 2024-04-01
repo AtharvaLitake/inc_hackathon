@@ -6,6 +6,7 @@ import Register_extended from "../Assets/Registration_extended.png";
 import round1 from "../Assets/techfiesta-removebg-preview.png";
 import TechFiestaTemplate from "../Assets/TechFiesta_Template.pptx";
 import Results from "../Assets/Results.png";
+import winners from '../Assets/Winners.png'
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -21,7 +22,7 @@ const Home = () => {
   return (
     <>
       <div className="marquee" id="ppt_download">
-        <p>Check Latest Updates section for Grand Finale Schedule</p>
+        <p>Congratulations to all Winners of Techfiesta 24</p>
       </div>
       <div className="Registeration_extension" onClick={handleDialogToggle}>
         <div className="extended">
@@ -34,7 +35,7 @@ const Home = () => {
           onClick={handleDialogToggle1}
         >
           <div className="extended">
-            <img src={Results} alt="" />
+            <img src={winners} alt="" />
           </div>
         </div>
       }
@@ -92,23 +93,18 @@ const Home = () => {
       )}
       {showDialog1 && (
         <div className="dialog_home_1">
-          <h1>Grand Finalists & Waiting Teams</h1>
+          <h1>Winners of Techfiesta</h1>
           <span className="close" onClick={handleDialogToggle1}>
             &times;
           </span>
-          <p>Check out the most awaited results here-</p>
-          <div className="link_to_next_page_1">
-            <button id="next_page_1">
-              <a href="/Finalist.pdf" download>
-                Finalists
-              </a>
+          <p>Congratulations to all the Winners and participants who showed enthusiasm throughout the TechFiesta-Grand Finale -</p>
+          <div className="link_to_next_page">
+            <button id="next_page">
+              <Link to='/winner'>
+                Winners
+              </Link>
             </button>
             <br />
-            <button id="next_page_1">
-              <a href="/Waiting.pdf" download>
-                Waiting list
-              </a>
-            </button>
             <br />
           </div>
         </div>

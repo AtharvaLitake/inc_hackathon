@@ -13,6 +13,7 @@ import Problem from "./Components/Problem";
 import Register from "./Components/Register";
 import Submit from "./Components/Submit";
 import Meet_instructions from "./Components/Meet_instructions";
+import Winners from "./Components/Winners"
 function App() {
   return (
     <BrowserRouter>
@@ -26,6 +27,7 @@ function App() {
         <Route path="/timeline" element={<Timeline></Timeline>}></Route>
         <Route path="/instructions" element={<Meet_instructions></Meet_instructions>}></Route>
         <Route path="/thankyoufrompict_techfiesta" element={<Submit />}></Route>
+        <Route path="/winner" element={<Winners />}></Route>
       </Routes>
     </BrowserRouter>
   );
